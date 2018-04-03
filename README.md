@@ -38,3 +38,17 @@ After completing the necessary research for this project, I come to see similar 
 - This is a popular data set for use within Machine Learning
 - Due to its small size (4 algorithms and 150 rows) it easily fits into memory (and on an A4 page) *{ https://machinelearningmastery.com/machine-learning-in-python-step-by-step/ }
 - 
+
+
+EXAMPLES OF DATA print outs
+
+https://www.kaggle.com/abhishekkrg/python-iris-data-visualization-and-explanation
+
+http://www.learn4master.com/algorithms/visualize-iris-dataset-using-python
+
+https://www.kaggle.com/benhamner/python-data-visualizations
+
+http://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html
+
+https://stackoverflow.com/questions/21548750/plotting-histograms-against-classes-in-pandas-matplotlib
+
