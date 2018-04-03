@@ -1,4 +1,4 @@
-# Iris-Data-Set-Project
+# Project: Iris Data Set 
 GMIT Programming and Scripting - Final Project - "Iris Data Set re: Python"
 
 # OVERVIEW
