@@ -32,7 +32,7 @@ https://stackoverflow.com/questions/45721083/unable-to-plot-4-histograms-of-iris
 
 https://campus.datacamp.com/courses/statistical-thinking-in-python-part-1/graphical-exploratory-data-analysis?ex=5#skiponboarding
 
-
+https://www.tutorialspoint.com/python/python_lists.htm  - how to lists max min 
 
 After completing the necessary research for this project, I come to see similar points being made about the Iris Data Set through numerous projects completed by individuals:  
 - This is a popular data set for use within Machine Learning
