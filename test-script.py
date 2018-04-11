@@ -1,4 +1,5 @@
-# Check the versions of libraries
+# Checking the versions of libraries to ensure all appearing as correct
+# Information taken from: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
  
 # Python version
 import sys
