@@ -1,5 +1,19 @@
-# Project: Iris Data Set 
-GMIT Programming and Scripting - Final Project - "Iris Data Set re: Python"
+
+<h1> A STUDY ON " THE IRIS FLOWER DATA SET " </h1><br/>
+
+</br>
+
+
+<h2><em> PROJECT REPORT - Submitted by: </h2></em>
+<h3><em> Valerie Walsh </h3></em>
+<h3><em>Student Number: G00364748 </h3></em>
+
+</br>
+
+<h3> Programming & Scripting - Higher Diploma in Data Analytics </h3>
+<h3> Galway Mayo I.T. </h3> </br>
+<h3>Submission Date: April 2018 </h3> </br>
+
 
 # OVERVIEW
 This repository has been created for me to record and show my work as I build and submit ny findings and project for the required area.
