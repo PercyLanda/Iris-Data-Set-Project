@@ -50,7 +50,8 @@ Valerie Walsh </br>
 
 For this project I heavy utilized the Python Programming Language [1] and GitHub [2] , along with various online resources which have been referenced at each mention. { [1] https://www.python.org/ , [2] https://github.com/ } </br>
 
-Prior to writing and running any scripts, you will want to ensure that the required software is installed. For this project I used the software called Anaconda. I have used this software throughout my course to date and find it extremely user-friendly. Anaconda can be downloaded via: ‘https://www.anaconda.com/’.
+Prior to writing and running any scripts, you will want to ensure that the required software is installed. For this project I used the software called Anaconda. I have used this software throughout my course to date and find it extremely user-friendly. Anaconda can be downloaded via: ‘https://www.anaconda.com/’. 
+Also to use Anaconda, I have used it via Visual Studio Code which can be found via: https://code.visualstudio.com/
 
 Throughout the usage of Anaconda and Python, I have used built in libraries which I imported when appropriate.
 I have created a folder titled Screenshots and inside this there is a screenshot showing the libraries I imported at the beginning of this project. I obtained this list from another source online which can be found here: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/ .
