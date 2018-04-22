@@ -118,30 +118,23 @@ My appendix for this project is located within the repository itself.
 <h2><strong>5. Bibliography</h2></strong> <br>
     https://gist.github.com/curran/a08a1080b88344b0c8a7
     GitHub info on python 
+https://machinelearningmastery.com/machine-learning-in-python-step-by-step/ - Step by step of how to do a project with python 
 
-    https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
-    Step by step of how to do a project with python 
+https://rpubs.com/rpadebet/269829 - Using R but interesting project steps layout 
 
-    https://rpubs.com/rpadebet/269829
-    Using R but interesting project steps layout 
+https://gist.github.com/naufraghi/457394 - Python and Iris Data Set (possibly too in-depth)
 
-    https://gist.github.com/naufraghi/457394
-    Python and Iris Data Set (possibly too in-depth)
+https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342 - Analysis of Iris Data Set & some history 
 
-    https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
-    Analysis of Iris Data Set & some history 
+https://plot.ly/python/histograms/ - Python histograms - how to
 
-    https://plot.ly/python/histograms/
-    Python histograms - how to
+https://stackoverflow.com/questions/33203645/how-to-plot-a-histogram-using-matplotlib-in-python-with-a-list-of-data Histograms - How to 
 
-    https://stackoverflow.com/questions/33203645/how-to-plot-a-histogram-using-matplotlib-in-python-with-a-list-of-data
-    Histograms - How to 
+https://stackoverflow.com/questions/45721083/unable-to-plot-4-histograms-of-iris-dataset-features-using-matplotlib
 
-    https://stackoverflow.com/questions/45721083/unable-to-plot-4-histograms-of-iris-dataset-features-using-matplotlib
+https://campus.datacamp.com/courses/statistical-thinking-in-python-part-1/graphical-exploratory-data-analysis?ex=5#skiponboarding
 
-    https://campus.datacamp.com/courses/statistical-thinking-in-python-part-1/graphical-exploratory-data-analysis?ex=5#skiponboarding
-
-    https://www.tutorialspoint.com/python/python_lists.htm  - how to lists max min 
+https://www.tutorialspoint.com/python/python_lists.htm  - how to lists max min 
 
 
 EXAMPLES OF DATA print outs
