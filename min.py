@@ -1,30 +1,30 @@
-# Valerie Walsh 2018-04-22
+# Valerie Walsh 22-04-2018
 # Iris Data Set project
-# Reference: Topic 7 videos
-# Calculate the min of each column
+# Reference: Topic 7 videos 
+# Calculating the mean of each column
 
 import numpy
 data = numpy.genfromtxt('iris.csv', delimiter=',')
 
-minfirstcol = numpy.min(data[:,0])
-minsecondcol = numpy.min(data[:,1])
-minthirdcol = numpy.min(data[:,2])
-minforthcol = numpy.min(data[:,3])
+meanfirstcol = numpy.mean(data[:,0])
+meansecondcol = numpy.mean(data[:,1])
+meanthirdcol = numpy.mean(data[:,2])
+meanforthcol = numpy.mean(data[:,3])
 
 print('\n')
 
-print("First column min is:", minfirstcol)
+print("First column is:", meanfirstcol)
 
-print("Second column min is:", minsecondcol)
+print("Second column is:", meansecondcol)
 
-print("Third column min is:", minthirdcol)
+print("Third column is:", meanthirdcol)
 
-print("Forth column min is:", minforthcol)
+print("Forth column is:", meanforthcol)
 
 print('\n')
 
 #Or alternatively you could request a print out of all the columns such as;
 
-print("The min of each column is:", minfirstcol, minsecondcol, minthirdcol, minforthcol)
+print("The mean of each column is:", meanfirstcol, meansecondcol, meanthirdcol, meanforthcol)
 
 print('\n')
