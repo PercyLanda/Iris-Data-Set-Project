@@ -2,7 +2,6 @@
 <h1><em><strong>A STUDY ON " THE IRIS FLOWER DATA SET " </h1></em></strong><br/>
 
 </br>
-![Screenshot](Box Whisker Plots.png)
 
 
 
