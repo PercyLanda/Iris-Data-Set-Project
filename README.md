@@ -3,7 +3,7 @@
 
 </br>
 
-
+![test-script-output](test-script-output.png)
 
 <h2><em> PROJECT REPORT - Submitted by: </h2></em>
 <h3><em> Valerie Walsh - Student Number: G00364748 </h3></em>
