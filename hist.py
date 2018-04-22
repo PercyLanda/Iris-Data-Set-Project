@@ -17,4 +17,6 @@ dataset = pandas.read_csv(url, names=names)
 
 # histograms
 dataset.hist()
+p.xlabel('Measurement - x axis')
+p.ylabel('Amount - y axis')
 p.show()
