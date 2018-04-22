@@ -36,4 +36,8 @@ print('\n')
 # However based on the learning aspect of the project, I wanted to include this output
 print(dataset.groupby('Class').size())
 
+# A script which outputs 10 random numbers from the data set
+r = numpy.random.rand(10)
+print(r)
+
 
