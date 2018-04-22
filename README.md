@@ -45,6 +45,8 @@ This project has been approached with the intention of researching all informati
 This is a statement to confirm that the submitted work is all my own which has been formulated with the aid of online research where all references have been included and mentioned where appropriate.
 Valerie Walsh </br>
 
+![Box_Whisker_Plots](Box_Whisker_Plots.png)
+
 <h2><strong> 1.2) Technology Used</h2></strong> <br>
 
 For this project I heavy utilized the Python Programming Language [1] and GitHub [2] , along with various online resources which have been referenced at each mention. { [1] https://www.python.org/ , [2] https://github.com/ } </br>
