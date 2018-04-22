@@ -2,6 +2,7 @@
 <h1><em><strong>A STUDY ON " THE IRIS FLOWER DATA SET " </h1></em></strong><br/>
 
 </br>
+![alt text](http://https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Data%20Visualisation/Box%20Whisker%20Plots.png)
 
 
 <h2><em> PROJECT REPORT - Submitted by: </h2></em>
@@ -116,8 +117,11 @@ My appendix for this project is located within the repository itself.
 
 
 <h2><strong>5. Bibliography</h2></strong> <br>
-    https://gist.github.com/curran/a08a1080b88344b0c8a7
-    GitHub info on python 
+
+https://stackoverflow.com/questions/14494747/add-images-to-readme-md-on-github - how to add images to ReadMe file
+
+https://gist.github.com/curran/a08a1080b88344b0c8a7 - GitHub info on python 
+
 https://machinelearningmastery.com/machine-learning-in-python-step-by-step/ - Step by step of how to do a project with python 
 
 https://rpubs.com/rpadebet/269829 - Using R but interesting project steps layout 
