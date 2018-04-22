@@ -40,4 +40,10 @@ print(dataset.groupby('Class').size())
 r = numpy.random.rand(10)
 print(r)
 
+# A script which outputs random normal values with a mean of 5 
+# and standard deviation of 0.25
+# This script was inspired from the videos in Topic 7
+r = numpy.random.normal(5, 0.25, 5)
+print("The random numbers selected are:", r)
+
 
