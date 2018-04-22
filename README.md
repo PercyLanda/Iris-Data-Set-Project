@@ -94,40 +94,54 @@ My plan included:
 - Ensure to regularly update the ReadMe file to ensure accuracy 
 
 
+<h2><strong>3. Summary</h2></strong> <br>
 
-# RESEARCH LINKS AND NOTES
-
-https://gist.github.com/curran/a08a1080b88344b0c8a7
-GitHub info on python 
-
-https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
-Step by step of how to do a project with python 
-
-https://rpubs.com/rpadebet/269829
-Using R but interesting project steps layout 
-
-https://gist.github.com/naufraghi/457394
-Python and Iris Data Set (possibly too in-depth)
-
-https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
-Analysis of Iris Data Set & some history 
-
-https://plot.ly/python/histograms/
-Python histograms - how to
-
-https://stackoverflow.com/questions/33203645/how-to-plot-a-histogram-using-matplotlib-in-python-with-a-list-of-data
-Histograms - How to 
-
-https://stackoverflow.com/questions/45721083/unable-to-plot-4-histograms-of-iris-dataset-features-using-matplotlib
-
-https://campus.datacamp.com/courses/statistical-thinking-in-python-part-1/graphical-exploratory-data-analysis?ex=5#skiponboarding
-
-https://www.tutorialspoint.com/python/python_lists.htm  - how to lists max min 
-
-After completing the necessary research for this project, I come to see similar points being made about the Iris Data Set through numerous projects completed by individuals:  
+To summarize my findings, I come to notice similar points being made about the Iris Data Set from those who have completed similar research:  
 - This is a popular data set for use within Machine Learning
-- Due to its small size (4 algorithms and 150 rows) it easily fits into memory (and on an A4 page) *{ https://machinelearningmastery.com/machine-learning-in-python-step-by-step/ }
-- 
+- Due to its small size (4 algorithms and 150 rows) it easily fits into memory (and on an A4 page) { https://machinelearningmastery.com/machine-learning-in-python-step-by-step/ }
+- High accuracy levels 
+
+I have learned a great deal since having undertaken this project. Prior to commencing this course in January, I had no previous programming experience and found the weekly tasks challenging. 
+With this project and the time limit given, I did find it daunting but also extensively rewarding. 
+The videos supplied on the Moodle page were invaluable based on the knowledge and skills it provided to me.
+Also it is amazing how many open sites are avaiable and the extent to which the Iris Data Set is used in modern machine learning. 
+I am proud of the work which I have produced to date and look foward to adding to it as my knowledge progresses.
+
+During my research, I did come across some indepth scripts and code which I believe would have added to my project but as I do not understand the work, I feel it would be slightly 'over my head' to explain it, should I need to. 
+I have however included the references so that they will be there for further review.
+
+<h2><strong>4. Appendix</h2></strong> <br>
+
+My appendix for this project is located within the repository itself. 
+
+
+<h2><strong>5. Bibliography</h2></strong> <br>
+    https://gist.github.com/curran/a08a1080b88344b0c8a7
+    GitHub info on python 
+
+    https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+    Step by step of how to do a project with python 
+
+    https://rpubs.com/rpadebet/269829
+    Using R but interesting project steps layout 
+
+    https://gist.github.com/naufraghi/457394
+    Python and Iris Data Set (possibly too in-depth)
+
+    https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
+    Analysis of Iris Data Set & some history 
+
+    https://plot.ly/python/histograms/
+    Python histograms - how to
+
+    https://stackoverflow.com/questions/33203645/how-to-plot-a-histogram-using-matplotlib-in-python-with-a-list-of-data
+    Histograms - How to 
+
+    https://stackoverflow.com/questions/45721083/unable-to-plot-4-histograms-of-iris-dataset-features-using-matplotlib
+
+    https://campus.datacamp.com/courses/statistical-thinking-in-python-part-1/graphical-exploratory-data-analysis?ex=5#skiponboarding
+
+    https://www.tutorialspoint.com/python/python_lists.htm  - how to lists max min 
 
 
 EXAMPLES OF DATA print outs
