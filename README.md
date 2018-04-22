@@ -2,7 +2,8 @@
 <h1><em><strong>A STUDY ON " THE IRIS FLOWER DATA SET " </h1></em></strong><br/>
 
 </br>
-![alt text](https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Data%20Visualisation/Box%20Whisker%20Plots.png)
+![Screenshot](Box Whisker Plots.png)
+
 
 
 <h2><em> PROJECT REPORT - Submitted by: </h2></em>
