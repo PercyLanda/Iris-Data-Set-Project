@@ -1,6 +1,8 @@
 # Valerie Walsh - 10-04-2018
 # Iris Data Set Project - scripts
-# Attempting basic tasks within Python
+# Attempting basic codes within Python
+
+# Reference: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 
 import pandas
 
