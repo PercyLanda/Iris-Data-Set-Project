@@ -73,12 +73,16 @@ I also relied heavily on the weekly videos supplied by our lecturer via the Mood
 
 The Iris Flower Data Set [5] was created by Ronald Fisher in 1936. It is described as a multivariate data set as an example of linear discriminant analysis. It is a data set which consists of 50 samples taken from three species of the Iris flower. The four features used for this data set include the length and width of the sepals and petals.
 
+<p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Ronald%20Fisher%20image.jpg">
+</p>
+
 Here is the background and the creation of the Iris Flower Data Set as per its Wikipedia page:
+<br><br>
 <em>“The Iris flower data set or Fisher's Iris data set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his 1936 paper “The use of multiple measurements in taxonomic problems” as an example of linear discriminant analysis. It is sometimes called Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species. Two of the three species were collected in the Gaspé Peninsula "all from the same pasture, picked on the same day and measured at the same time by the same person with the same apparatus".
 The data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length and the width of the sepals and petals, in centimetres. Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other.”</em>[6]
 
-[5] https://en.wikipedia.org/wiki/Iris_flower_data_set
-[6] https://en.wikipedia.org/wiki/Iris_flower_data_set
+{ [5] https://en.wikipedia.org/wiki/Iris_flower_data_set , [6] https://en.wikipedia.org/wiki/Iris_flower_data_set }
 
 
 <br><br>
@@ -86,7 +90,7 @@ The data set consists of 50 samples from each of three species of Iris (Iris set
 
 Prior to commencing this project, I took the advice of our lecturer and I made a decision to create a project management plan so that I could remain organised and on-top of the work while also ensuring to show regular contributions to my repository with updates and edits.
 
-My plan included:
+My project management plan:
 - Create the repository with my chosen title 'Iris Data Set Project - 'https://github.com/vwalsh86/Iris-Data-Set-Project'
 - Research the topic of interest online and document all references / links that may be used in the project via my ReadMe file.
 - Create a folder locally on my laptop where I added images, files and also a Word document. This document was where I predominantly wrote the text based content for the project before inserting it into the ReadMe file
@@ -100,13 +104,13 @@ There are additional libraries available to use within Visual Studio Code (VSC),
 
 Firstly the code that I ran: 
 
-<p align="center">
+<p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/test-script-code.PNG">
 </p>
 
 And secondly, the output from VSC showing the libraries and their versions:
 
-<p align="center">
+<p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/test-script-output.PNG">
 </p>
 
@@ -116,11 +120,11 @@ I obtained the list of these libraries via this online source: [7] https://machi
 <h2><strong>2.3 Investigation</h2></strong> <br>
 
 The Iris Flower Data Set itself is extremely popular and utilized as a testing tool within machine learning. Part of its popularity I believe, is due to its reliabillity and ease of use. 
-One contributor on Stackflow descirbed the reasons for its high accuracy: <br>
+One contributor on Stackflow descirbed the reasons for its high accuracy: <br><br>
 <em>"(a) there are few features to begin with and (b) that there are high linear correlations with class, would all point to a less complex, linear function as being the appropriate predictive model-- by using a single hidden node, you are very nearly using a linear model.
 It can also be noted that, in the absence of any hidden layer (i.e., just input and output nodes), and when the logistic transfer function is used, this is equivalent to logistic regression."</em>
 <br><br>
-While another contributor responded to the same post with a sample test for the data set: <br>
+While another contributor responded to the same post with a sample test for the data set: <br><br>
 <em>" The Iris data set can even be predicted with a very high accuracy (96%) by using just three simple rules on only one attribute:
 If Petal.Width = (0.0976,0.791] then Species = setosa
 If Petal.Width = (0.791,1.63]   then Species = versicolor
@@ -129,10 +133,35 @@ If Petal.Width = (1.63,2.5]     then Species = virginica " </em> <br>
 
 As previously mentioned, my goal for this project was to create and run some codes to prove my knowledge of the topic while also providing information to those interested in learning of the same.
 
-For this project, I successfully managed to produce and run scripts to show:
-- The min, max and mean of each column
-- Create visual graphs of the univariable data in the form of: historgrams, scatter plots and box & whisker plots
-- Improve some previously created scripts as I learned better methods of writing and running the scripts 
+
+The basic output functions for numerical data such; 
+1) how much data is in the file 
+
+2) the 
+- The min, max and mean of each column which I have 
+
+<h3><em>Visual graphs of the univariable data</h3></em>
+
+<h4>Histograms</h4>
+
+<p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Data%20Visualisation/Histograms.png">
+</p>
+
+<h4>Box and Whisker Plots</h4>
+
+<p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Data%20Visualisation/Box%20Whisker%20Plots.png">
+</p>
+
+<h4>Scattor Plot Matrix</h4>
+
+<p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Data%20Visualisation/Scatter%20Plot%20Matrix.png">
+</p>
+
+<h4> Improvements</h4>
+Improve some previously created scripts as I learned better methods of writing and running the scripts </h3>
 
 <h2><strong>3. Summary</h2></strong> <br>
 
@@ -152,7 +181,41 @@ I have however included the links as additional references so that they will be 
 
 <h2><strong>4. Appendix</h2></strong> <br>
 
-My appendix for this project is located within the repository itself. 
+<p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Ronald%20Fisher%20image.jpg">
+</p>
+
+<p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/test-script-output.PNG">
+</p>
+
+<p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Copy%20and%20paste%20errors.PNG">
+</p>
+
+<p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/test-script-code.PNG">
+</p>
+
+<p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/test-script-output.PNG">
+</p>
+
+<p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Data%20Visualisation/Box%20Whisker%20Plots.png">
+</p>
+
+<p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Data%20Visualisation/Histograms.png">
+</p>
+
+<p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Data%20Visualisation/Scatter%20Plot%20Matrix.png">
+</p>
+
+<p align="left">
+<img src="">
+</p>
 
 
 <h2><strong>5. Bibliography</h2></strong> <br>
