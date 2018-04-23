@@ -143,6 +143,7 @@ The screenshot shows
 - Overall breakdown of the data eg mean, min, max 
 - The breakdown of data in terms of class
 
+
 <p align="center">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Basic_Data.png">
 </p>
@@ -151,6 +152,8 @@ The screenshot shows
 I wrote code for each of these attributes which I was happy with however after further investigating, I think discovered a way to output the 4 responses with just 1 line of code. Please see the .py files for these in this repository to see the code used for each file.
 
 <h4> Min </h4>
+
+
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/min.png">
 </p>
@@ -158,10 +161,18 @@ I wrote code for each of these attributes which I was happy with however after f
 <h4> Max </h4>
 
 <p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Max%20code.png">
+</p>
+
+<p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/max.png">
 </p>
 
 <h4> Mean </h4>
+
+<p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Mean%20code.png">
+</p>
 
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/mean.png">
@@ -172,6 +183,10 @@ I wrote code for each of these attributes which I was happy with however after f
 <h3><em><strong>Visual graphs of the univariable data</h3></em></strong>
 
 <h4>Histograms</h4>
+
+<p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Historgram%20code.png">
+</p>
 
 Having produced the histograms for this data, I chose to compare it against the output of the mean attribute.
 The mean may not always be a clear or accurate representation of the data. This is where a histogram provides a more accurate depiction.
@@ -188,10 +203,18 @@ This backs the theory that visual data is always going to show you a clearer dis
 <h4>Box and Whisker Plots</h4>
 
 <p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Box%20and%20Whisker%20plot%20code.png">
+</p>
+
+<p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Data%20Visualisation/Box%20Whisker%20Plots.png">
 </p>
 
 <h4>Scattor Plot Matrix</h4>
+
+<p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Scattor%20plot%20code.png">
+</p>
 
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Data%20Visualisation/Scatter%20Plot%20Matrix.png">
