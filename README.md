@@ -134,15 +134,52 @@ If Petal.Width = (1.63,2.5]     then Species = virginica " </em> <br>
 As previously mentioned, my goal for this project was to create and run some codes to prove my knowledge of the topic while also providing information to those interested in learning of the same.
 
 
-The basic output functions for numerical data such; 
-1) how much data is in the file 
+<h3>Basic Output</h3>
 
-2) the 
-- The min, max and mean of each column which I have 
+I wanted to run a script which outputted some simple statistics about the data.
+The screenshot shows 
+- the total amount of data in colums and rows
+- the beginning of the data   
+- Overall breakdown of the data eg mean, min, max 
+- The breakdown of data in terms of class
 
-<h3><em>Visual graphs of the univariable data</h3></em>
+<p align="center">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Basic_Data.png">
+</p>
+
+<h3><strong>Calculating the Min, Max and Mean of each column:</h3></strong>
+I wrote code for each of these attributes which I was happy with however after further investigating, I think discovered a way to output the 4 responses with just 1 line of code. Please see the .py files for these in this repository to see the code used for each file.
+
+<h4> Min </h4>
+<p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/min.png">
+</p>
+
+<h4> Max </h4>
+
+<p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/max.png">
+</p>
+
+<h4> Mean </h4>
+
+<p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/mean.png">
+</p>
+
+<br> 
+
+<h3><em><strong>Visual graphs of the univariable data</h3></em></strong>
 
 <h4>Histograms</h4>
+
+Having produced the histograms for this data, I chose to compare it against the output of the mean attribute.
+The mean may not always be a clear or accurate representation of the data. This is where a histogram provides a more accurate depiction.
+<br>
+For example, the <em>Sepal length</em> mean is 5.843333 but as per the histogram you can see the majority of the data collected ranges from approx 1cm - 6.8cm.
+<br>
+Also another comparison is the <em>Petal length</em> mean which is calculated at 3.75866 but the histogram shows a large amount of the data measured at 1cm ad then another cluster at 4-5cm.
+This backs the theory that visual data is always going to show you a clearer distribution of data.
 
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Data%20Visualisation/Histograms.png">
@@ -191,6 +228,22 @@ I have however included the links as additional references so that they will be 
 
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Copy%20and%20paste%20errors.PNG">
+</p>
+
+<p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Basic_Data.png">
+</p>
+
+p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/min.png">
+</p>
+
+<p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/max.png">
+</p>
+
+<p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/mean.png">
 </p>
 
 <p align="left">
