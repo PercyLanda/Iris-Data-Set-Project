@@ -23,7 +23,8 @@ print("Forth column is:", meanforthcol)
 
 print('\n')
 
-#Or alternatively you could request a print out of all the columns such as;
+# Reference: https://www.tutorialspoint.com/python/list_min.htm
+# An alternative and cleaner solution which I found to the above is;
 
 print("The mean of each column is:", meanfirstcol, meansecondcol, meanthirdcol, meanforthcol)
 
