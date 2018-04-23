@@ -18,3 +18,10 @@ print("Second column is:", meansecondcol)
 print("Third column is:", meanthirdcol)
 
 print("Forth column is:", meanforthcol)
+
+# Reference: https://www.tutorialspoint.com/python/list_min.htm
+# An alternative and cleaner solution which I found to the above is;
+
+print("The mean of each column is:", meanfirstcol, meansecondcol, meanthirdcol, meanforthcol)
+
+print('\n')
