@@ -1,3 +1,5 @@
+# Valerie Walsh 10-04-2018
+# Iris Data Set project
 # Checking the versions of libraries to ensure all appearing as correct
 # Information taken from: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
  
