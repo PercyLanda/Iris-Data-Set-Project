@@ -308,3 +308,7 @@ http://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html
 
 https://stackoverflow.com/questions/21548750/plotting-histograms-against-classes-in-pandas-matplotlib
 
+
+* https://github.com/bensooraj/Making-predictions-on-the-Iris-Dataset/blob/master/Making%20predictions%20on%20the%20Iris%20Dataset.ipynb
+* https://www.kaggle.com/vikrishnan/iris-dataset/data
+* https://www.kaggle.com/benhamner/python-data-visualizations
