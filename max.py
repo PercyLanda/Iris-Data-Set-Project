@@ -23,7 +23,8 @@ print("Forth column max is:", maxforthcol)
 
 print('\n')
 
-#Or alternatively you could request a print out of all the columns such as;
+# Reference: https://www.tutorialspoint.com/python/list_min.htm
+# An alternative and cleaner solution which I found to the above is;
 
 print("The max of each column is:", maxfirstcol, maxsecondcol, maxthirdcol, maxforthcol)
 
