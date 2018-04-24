@@ -169,8 +169,9 @@ The 'Min' code output
 <br>
 
 <p align="left">
-<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/min.pngy">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/min.png">
 </p>
+
 <br>
 
 <h4>Calculating the Max </h4>
