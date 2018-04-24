@@ -134,7 +134,7 @@ If Petal.Width = (1.63,2.5]     then Species = virginica " </em> <br>
 As previously mentioned, my goal for this project was to create and run some codes to prove my knowledge of the topic while also providing information to those interested in learning of the same.
 
 
-<h3>Basic Output</h3>
+<h3><em>Basic Output</h3></em>
 
 I wanted to run a script which outputted some simple statistics about the data.
 The screenshot shows 
@@ -149,30 +149,52 @@ The screenshot shows
 </p>
 
 <h3><strong>Calculating the Min, Max and Mean of each column:</h3></strong>
-I wrote code for each of these attributes which I was happy with however after further investigating, I think discovered a way to output the 4 responses with just 1 line of code. Please see the .py files for these in this repository to see the code used for each file.
+I wrote a seperate code for each of these attributes which I was happy with and outputted what I wanted.
+However after further research when writing other scripts, I realised that I could merge the 4 column's together into one line of output saving me time and space, while also making the script look neater.
 
-<h4> Min </h4>
+I have chosen to leave both outputs in the script to show the difference.
 
+With each of the below, you have the option to remove the lines 13-27 to allow the one liner be the output instead.
 
+<h4>Calculating the Min </h4>
+
+<br>
+Python script 
 <p align="left">
-<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/min.png">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Min%20Code.png">
 </p>
 
-<h4> Max </h4>
+<br>
+The 'Min' code output
+<br>
+
+<p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/min.pngy">
+</p>
+<br>
+
+<h4>Calculating the Max </h4>
+<br>
 
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Max%20code.png">
 </p>
 
+<br>
+
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/max.png">
 </p>
 
-<h4> Mean </h4>
+<br>
 
+<h4>Calculating the Mean </h4>
+<br>
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Mean%20code.png">
 </p>
+
+<br>
 
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/mean.png">
@@ -180,7 +202,7 @@ I wrote code for each of these attributes which I was happy with however after f
 
 <br> 
 
-<h3><em><strong>Visual graphs of the univariable data</h3></em></strong>
+<h3><strong>Visual graphs of the univariable data</h3></strong>
 
 <h4>Histograms</h4>
 
