@@ -24,6 +24,9 @@
 2.2.	 Preparation <br>
 2.3.	 Investigation <br>
 3.	Summary <br>
+3.1 Findings <br>
+3.2 Development <br>
+3.3 Errors Encountered <br>
 4.	Appendix <br>
 5.	Bibliography <br>
 </br>
@@ -40,13 +43,13 @@ I intend to investigate, research and produce my findings via this submission. M
 This project has been approached with the intention of researching all information of the Iris Flower Data Set, write and run scripts to test the set within Python and then provide written support of my view and knowledge of the data set.
 
 </br>
-<h2><strong>1.1) Statement of Work </h2></strong> <br>
+<h3><strong>1.1) Statement of Work </h3></strong> <br>
 
 This is a statement to confirm that the submitted work is my own which has been formulated with the aid of online research, where all references have been included and mentioned where appropriate.
 Valerie Walsh </br>
 
 
-<h2><strong> 1.2) Technology Used</h2></strong> <br>
+<h3><strong> 1.2) Technology Used</h3></strong> <br>
 
 * Anaconda
 * Visual Studio Code
@@ -69,7 +72,7 @@ I also relied heavily on the weekly videos supplied by our lecturer via the Mood
 <em>{ [1] ‘https://www.anaconda.com/’,  [2] https://code.visualstudio.com/, [3] https://www.python.org/, [4] https://github.com/ }</em>
 
 <h2><strong>2. Discussion</h2></strong>
-<h2><strong>2.1 Background</h2></strong> <br>
+<h3><strong>2.1 Background</h3></strong> <br>
 
 The Iris Flower Data Set [5] was created by Ronald Fisher in 1936. It is described as a multivariate data set as an example of linear discriminant analysis. It is a data set which consists of 50 samples taken from three species of the Iris flower. The four features used for this data set include the length and width of the sepals and petals.
 
@@ -86,7 +89,7 @@ The data set consists of 50 samples from each of three species of Iris (Iris set
 
 
 <br><br>
-<h2><strong>2.2 Preparation</h2></strong> <br>
+<h3><strong>2.2 Preparation</h3></strong> <br>
 
 Prior to commencing this project, I took the advice of our lecturer and I made a decision to create a project management plan so that I could remain organised and on-top of the work while also ensuring to show regular contributions to my repository with updates and edits.
 
@@ -117,7 +120,7 @@ And secondly, the output from VSC showing the libraries and their versions:
 I obtained the list of these libraries via this online source: [7] https://machinelearningmastery.com/machine-learning-in-python-step-by-step/ .
 
 
-<h2><strong>2.3 Investigation</h2></strong> <br>
+<h3><strong>2.3 Investigation</h3></strong> <br>
 
 The Iris Flower Data Set itself is extremely popular and utilized as a testing tool within machine learning. Part of its popularity I believe, is due to its reliabillity and ease of use. 
 One contributor on Stackflow descirbed the reasons for its high accuracy: <br><br>
@@ -132,40 +135,61 @@ If Petal.Width = (1.63,2.5]     then Species = virginica " </em> <br>
 [2] https://stackoverflow.com/questions/36967126/why-do-i-get-good-accuracy-with-iris-dataset-with-a-single-hidden-node
 
 As previously mentioned, my goal for this project was to create and run some codes to prove my knowledge of the topic while also providing information to those interested in learning of the same.
+<br>
+<br>
 
+<strong><em>I have chosen to include an image of the script and the output for each calculation that I have done. This will allow you to review the workings easier and see how they relate to each output.
+The first image will be the script I wrote in Python and the second image will be the output via Visual Studio Code.</strong></em>
 
 <h3><em>Basic Output</h3></em>
 
-I wanted to run a script which outputted some simple statistics about the data.
-The screenshot shows 
-- the total amount of data in colums and rows
-- the beginning of the data   
-- Overall breakdown of the data eg mean, min, max 
-- The breakdown of data in terms of class
+For the first script, I wanted an output of some simple statistics about the data.
+The below includes: 
+- an overview of the data i.e. how much is in the set in terms of colums and rows
+- the header or the beginning of the data, it is worth noting that you can select the number of lines you wish it to output  
+- A table of statistics for the data e.g. mean, min, max 
+- The distribution of data in terms of 'class' - I am aware that it is well known that this particular data set has 3 classes and 50 samples for each but I felt this script would be worthwhile including to show the calculations.
+- a script requesting random values of the data set to be outputted
+- another script requesting random value but this script has set limiters / values for the outputs
 
+<br>
+
+<p align="center">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Basic_script1.png">
+</p>
+
+<br>
+
+<p align="center">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Basic_script2.png">
+</p>
+
+<br>
+<br>
 
 <p align="center">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Basic_Data.png">
 </p>
 
+<br>
+
 <h3><strong>Calculating the Min, Max and Mean of each column:</h3></strong>
-I wrote a seperate code for each of these attributes which I was happy with and outputted what I wanted.
-However after further research when writing other scripts, I realised that I could merge the 4 column's together into one line of output saving me time and space, while also making the script look neater.
 
-I have chosen to leave both outputs in the script to show the difference.
+I wrote a seperate code script for each of these attributes and originally I was happy with them and the scripts outputted what I wanted.
+However after further research when writing other scripts, I realised that I could merge the 4 column's together into one line of output, saving me time, lines of code and also making the script look neater.
 
-With each of the below, you have the option to remove the lines 13-27 to allow the one liner be the output instead.
+I chose to leave both outputs in the script to show you the difference between each option.
 
-<h4>Calculating the Min </h4>
+With each of the below scripts, you could remove the code in lines 13-27 to allow the one liner be the output instead.
+
+<h4>Calculating the Min - script and output</h4>
 
 <br>
-Python script 
+
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Min%20Code.png">
 </p>
 
-<br>
-The 'Min' code output
 <br>
 
 <p align="left">
@@ -174,7 +198,7 @@ The 'Min' code output
 
 <br>
 
-<h4>Calculating the Max </h4>
+<h4>Calculating the Max - script and output </h4>
 <br>
 
 <p align="left">
@@ -189,7 +213,7 @@ The 'Min' code output
 
 <br>
 
-<h4>Calculating the Mean </h4>
+<h4>Calculating the Mean - script and output</h4>
 <br>
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Mean%20code.png">
@@ -203,9 +227,9 @@ The 'Min' code output
 
 <br> 
 
-<h3><strong>Visual graphs of the univariable data</h3></strong>
+<h3><strong>Visual Graphs of the Univariable data</h3></strong>
 
-<h4>Histograms</h4>
+<h4>Histograms - script and output</h4>
 
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Historgram%20code.png">
@@ -214,16 +238,18 @@ The 'Min' code output
 Having produced the histograms for this data, I chose to compare it against the output of the mean attribute.
 The mean may not always be a clear or accurate representation of the data. This is where a histogram provides a more accurate depiction.
 <br>
-For example, the <em>Sepal length</em> mean is 5.843333 but as per the histogram you can see the majority of the data collected ranges from approx 1cm - 6.8cm.
+For example, the mean of the <em>Sepal length</em> is 5.843333 but as per the histogram you can see the majority of the data collected ranges from approx 1cm - 6.8cm.
 <br>
-Also another comparison is the <em>Petal length</em> mean which is calculated at 3.75866 but the histogram shows a large amount of the data measured at 1cm ad then another cluster at 4-5cm.
-This backs the theory that visual data is always going to show you a clearer distribution of data.
+Also another comparison is the mean of the <em>Petal length</em> is calculated at 3.75866 but the histogram shows a large amount of the data measured at 1cm ad then another cluster at 4-5cm.
+This backs the theory that visual data is always going to show you a clearer distribution and representation of the data.
 
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Data%20Visualisation/Histograms.png">
 </p>
 
-<h4>Box and Whisker Plots</h4>
+<br>
+
+<h4>Box and Whisker Plots - script and output</h4>
 
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Box%20and%20Whisker%20plot%20code.png">
@@ -233,7 +259,7 @@ This backs the theory that visual data is always going to show you a clearer dis
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Data%20Visualisation/Box%20Whisker%20Plots.png">
 </p>
 
-<h4>Scattor Plot Matrix</h4>
+<h4>Scattor Plot Matrix - script and output</h4>
 
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Scattor%20plot%20code.png">
@@ -243,24 +269,57 @@ This backs the theory that visual data is always going to show you a clearer dis
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Data%20Visualisation/Scatter%20Plot%20Matrix.png">
 </p>
 
-<h4> Improvements</h4>
-Improve some previously created scripts as I learned better methods of writing and running the scripts </h3>
+<h4> Improvements </h4>
+Improve some previously created scripts as I learned better methods of writing and running the scripts
 
 <h2><strong>3. Summary</h2></strong> <br>
+
+<h3>3.1 Findings<h3>
+
+<br>
+
+<h3>3.2 Development</h3>
+I have learned a great deal since having undertaken this project. Prior to commencing this course in January, I had no previous programming experience and found the weekly tasks challenging. 
+With this project I was required to go out of my comfort zone where I found myself spending considerable time running, testing and tweaking code to produce results. But I am very proud of the content that I have produced, I found it both daunting and extensively rewarding. 
+<br>
+During my research, I did come across some indepth scripts and code which I believe would have added to my project but given the timeframe and my current skill level, I felt it would be slightly 'over my head' to explain it should I need to. 
+<br>
+Upon completing this project I have gained new knowledge and skills which will help me to grow as a developer and more confidence entering into semester 2 of this course later this year.
+Some of the newly attained skills include:
+- Discovering and using new libraries within VSC i.e. NumPy, Pandas, Matplotllib 
+- Learning how to produce and create visual outputs i.e. histograms, scatter plots while also understanding the outputs
+- Returning to previously written scripts to tweak or improve them based on newly found knowledge e.g. calculating the min and max values
+- Using iPython as an active terminal to test code and outputs before committing them to scripts 
+- Learning new terminology within GitHub itself i.e. learning what 'forking a project' means. This would lead me to believe that my work was seen as a good standard for someone to wish to reference it. 
+- Also learning new tips and tricks with using NumPy in Visual Studio Code - using the 'tab' key to view commands available with NumPy
+<br>
+I have gained new skills and confidence with software which was quite new to me (Python and GitHub) and I look forward to adding to it further as my knowledge progresses.
+
+<br><br>
+
+<h3>3.3 Errors Encountered</h3>
+There was plenty of errors encountered while creating this project but I shall aim to keep them to a summary for this part of my project.
+- Adding images to ReadMe is something that caused me great frustration. I had found the option online to add it via ![image](image.file.name) but this did not work, I attempted to add via a direct link and finally after a week of trying to resolve myself, I posted for help on the internal course Discussion Forum and thankfully my prayeres were answered.
+- When creating Box & Whisker plots, I wanted to play around with the layout and see could I get them to appear one per line instead of 2 and 2 so I tried to play with the layout(2,2) part of the code but unfortunately I did not get any further with it
+- Writing scripts is something that is still quite new to me so I constantly encounter errors within VSC when I try to get an output. This can be something as simple as forgetting the bracket or " but I am aware this is 100% based on user error and with time I know that I can overcome this obstacle which is adding alot to the length of time it takes me to produce scripts. Thankfully with the internet being as large as it is, I generally find assistance through some open source to resolve my issue.
+- Another issue I ran into that threw me was getting errors when I copied code from MS Word into Visual Studio Code. I was writing my scripts within MS Word as my open 'jotter' on my laptop. For some unknown reason when you copy and paste from Word into VSC, you will get inundated with error messages about invald syntax when there is no error. I deleted and manually typed in the same code to resolve this issue and I have included a screenshot showing the errors here:
+
+<p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Copy%20and%20paste%20errors.PNG">
+</p>
+
+<br>
 
 To summarize my findings, I come to notice similar points being made about the Iris Data Set from those who have completed similar research:  
 - This is a popular data set for use within Machine Learning
 - Due to its small size (4 algorithms and 150 rows) it easily fits into memory (and on an A4 page) { https://machinelearningmastery.com/machine-learning-in-python-step-by-step/ }
 - High accuracy levels 
 
-I have learned a great deal since having undertaken this project. Prior to commencing this course in January, I had no previous programming experience and found the weekly tasks challenging. 
-With this project I was required to go out of my comfort zone where I found myself spending considerable time running, testing and tweaking code to produce results. But I am very proud of the content that I have produced, I found it both daunting and extensively rewarding. 
-I have gained new skills and confidence with software which was quite new to me (Python and GitHub) and I look forward to adding to it further as my knowledge progresses.
+
 
 Also it is amazing how many open sites are avaiable and the extent to which the Iris Data Set is used in modern machine learning. 
 
-During my research, I did come across some indepth scripts and code which I believe would have added to my project but given the timeframe and my current skill level, I felt it would be slightly 'over my head' to explain it should I need to. 
-I have however included the links as additional references so that they will be there for further review.
+
 
 <h2><strong>4. Appendix</h2></strong> <br>
 
