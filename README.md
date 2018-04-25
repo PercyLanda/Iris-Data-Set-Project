@@ -69,8 +69,6 @@ I also relied heavily on the weekly videos supplied by our lecturer via the Mood
 
 <br>
 
-<em>{ [1] ‘https://www.anaconda.com/’,  [2] https://code.visualstudio.com/, [3] https://www.python.org/, [4] https://github.com/ }</em>
-
 <h2><strong>2. Discussion</h2></strong>
 <h3><strong>2.1 Background</h3></strong> <br>
 
@@ -85,8 +83,17 @@ Here is the background and the creation of the Iris Flower Data Set as per its W
 <em>“The Iris flower data set or Fisher's Iris data set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his 1936 paper “The use of multiple measurements in taxonomic problems” as an example of linear discriminant analysis. It is sometimes called Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species. Two of the three species were collected in the Gaspé Peninsula "all from the same pasture, picked on the same day and measured at the same time by the same person with the same apparatus".
 The data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length and the width of the sepals and petals, in centimetres. Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other.”</em>[6]
 
-{ [5] https://en.wikipedia.org/wiki/Iris_flower_data_set , [6] https://en.wikipedia.org/wiki/Iris_flower_data_set }
-
+The Iris Flower Data Set itself is extremely popular and utilized as a testing tool within machine learning. Part of its popularity I believe, is due to its reliabillity and ease of use. 
+One contributor on Stackflow descirbed the reasons for its high accuracy: <br><br>
+<em>"(a) there are few features to begin with and (b) that there are high linear correlations with class, would all point to a less complex, linear function as being the appropriate predictive model-- by using a single hidden node, you are very nearly using a linear model.
+It can also be noted that, in the absence of any hidden layer (i.e., just input and output nodes), and when the logistic transfer function is used, this is equivalent to logistic regression."</em>
+<br><br>
+While another contributor responded to the same post with a sample test for the data set: <br><br>
+<em>" The Iris data set can even be predicted with a very high accuracy (96%) by using just three simple rules on only one attribute:
+If Petal.Width = (0.0976,0.791] then Species = setosa
+If Petal.Width = (0.791,1.63]   then Species = versicolor
+If Petal.Width = (1.63,2.5]     then Species = virginica " </em> <br>
+[7] https://stackoverflow.com/questions/36967126/why-do-i-get-good-accuracy-with-iris-dataset-with-a-single-hidden-node
 
 <br><br>
 <h3><strong>2.2 Preparation</h3></strong> <br>
@@ -117,57 +124,44 @@ And secondly, the output from VSC showing the libraries and their versions:
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/test-script-output.PNG">
 </p>
 
-I obtained the list of these libraries via this online source: [7] https://machinelearningmastery.com/machine-learning-in-python-step-by-step/ .
+I obtained the list of these libraries via this online source: [8] https://machinelearningmastery.com/machine-learning-in-python-step-by-step/.
 
 
 <h3><strong>2.3 Investigation</h3></strong> <br>
 
-The Iris Flower Data Set itself is extremely popular and utilized as a testing tool within machine learning. Part of its popularity I believe, is due to its reliabillity and ease of use. 
-One contributor on Stackflow descirbed the reasons for its high accuracy: <br><br>
-<em>"(a) there are few features to begin with and (b) that there are high linear correlations with class, would all point to a less complex, linear function as being the appropriate predictive model-- by using a single hidden node, you are very nearly using a linear model.
-It can also be noted that, in the absence of any hidden layer (i.e., just input and output nodes), and when the logistic transfer function is used, this is equivalent to logistic regression."</em>
-<br><br>
-While another contributor responded to the same post with a sample test for the data set: <br><br>
-<em>" The Iris data set can even be predicted with a very high accuracy (96%) by using just three simple rules on only one attribute:
-If Petal.Width = (0.0976,0.791] then Species = setosa
-If Petal.Width = (0.791,1.63]   then Species = versicolor
-If Petal.Width = (1.63,2.5]     then Species = virginica " </em> <br>
-[2] https://stackoverflow.com/questions/36967126/why-do-i-get-good-accuracy-with-iris-dataset-with-a-single-hidden-node
-
 As previously mentioned, my goal for this project was to create and run some codes to prove my knowledge of the topic while also providing information to those interested in learning of the same.
 <br>
-<br>
 
-<strong><em>I have chosen to include an image of the script and the output for each calculation that I have done. This will allow you to review the workings easier and see how they relate to each output.
-The first image will be the script I wrote in Python and the second image will be the output via Visual Studio Code.</strong></em>
+Below are the scripts and outputs for each attribute that I have chosen to investigate. I have chosen to include an image of each so as to allow you to review the workings easier and how they relate to each output.
+The first image of each section is the script I wrote in Python and the second image is the output via Visual Studio Code.
 
-<h3><em>Basic Output</h3></em>
+<h3><em>Exploring the Data</h3></em>
 
 For the first script, I wanted an output of some simple statistics about the data.
 The below includes: 
-- an overview of the data i.e. how much is in the set in terms of colums and rows
-- the header or the beginning of the data, it is worth noting that you can select the number of lines you wish it to output  
+- An overview of the data i.e. how much is in the set in terms of colums and rows
+- The header or the beginning of the data, it is worth noting that you can select the number of lines you wish it to output  
 - A table of statistics for the data e.g. mean, min, max 
 - The distribution of data in terms of 'class' - I am aware that it is well known that this particular data set has 3 classes and 50 samples for each but I felt this script would be worthwhile including to show the calculations.
-- a script requesting random values of the data set to be outputted
-- another script requesting random value but this script has set limiters / values for the outputs
+- A script requesting random values of the data set to be outputted
+- Another script requesting random value but this script has set limiters / values for the outputs
 
 <br>
 
-<p align="center">
+<p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Basic_script1.png">
 </p>
 
 <br>
 
-<p align="center">
+<p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Basic_script2.png">
 </p>
 
 <br>
 <br>
 
-<p align="center">
+<p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Basic_Data.png">
 </p>
 
@@ -251,6 +245,12 @@ This backs the theory that visual data is always going to show you a clearer dis
 
 <h4>Box and Whisker Plots - script and output</h4>
 
+Box Plots are defined on Wikipedia as a good method of showing an accurate view of data:
+<br><em>"Outliers may be plotted as individual points. Box plots are non-parametric: they display variation in samples of a statistical population without making any assumptions of the underlying statistical distribution. The spacings between the different parts of the box indicate the degree of dispersion (spread) and skewness in the data, and show outliers."</em> [9]
+
+A advantage that a Box & Whisker Plots has over Histograms is that:
+<em>"They take up less space and are therefore particularly useful for comparing distributions between several groups or sets of data."</em> [9]
+<br>
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Box%20and%20Whisker%20plot%20code.png">
 </p>
@@ -259,6 +259,7 @@ This backs the theory that visual data is always going to show you a clearer dis
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Data%20Visualisation/Box%20Whisker%20Plots.png">
 </p>
 
+<h3> Multivariate Plots</h3>
 <h4>Scattor Plot Matrix - script and output</h4>
 
 <p align="left">
@@ -268,13 +269,36 @@ This backs the theory that visual data is always going to show you a clearer dis
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Data%20Visualisation/Scatter%20Plot%20Matrix.png">
 </p>
+<br>
 
-<h4> Improvements </h4>
-Improve some previously created scripts as I learned better methods of writing and running the scripts
+<h4>Pie Chart</h4>
+
+I have included the method of creating a Pie Chart simply to gain a better understanding of creating graphs via Python. 
+Based on the equal measure of data for each section, we can see an even distribution in the below output screenshot.[10]
+
+<p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/pie.png">
+</p>
+
+<p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/pie%20output.png">
+</p>
+
 
 <h2><strong>3. Summary</h2></strong> <br>
 
+To summarise my work I have come to understand 
+I have also achieved what I set out to do which was understand the data set and how to manipulate the data via writing and executing scripts.
+
 <h3>3.1 Findings<h3>
+
+To summarize my findings, I come to notice similar points being made about the Iris Data Set from those who have completed similar research:  
+- This is a popular data set for use within Machine Learning
+- Due to its small size (4 algorithms and 150 rows) it easily fits into memory (and on an A4 page)
+- High accuracy levels 
+
+
+Also it is amazing how many open sites are avaiable and the extent to which the Iris Data Set is used in modern machine learning. 
 
 <br>
 
@@ -293,7 +317,7 @@ Some of the newly attained skills include:
 - Learning new terminology within GitHub itself i.e. learning what 'forking a project' means. This would lead me to believe that my work was seen as a good standard for someone to wish to reference it. 
 - Also learning new tips and tricks with using NumPy in Visual Studio Code - using the 'tab' key to view commands available with NumPy
 <br>
-I have gained new skills and confidence with software which was quite new to me (Python and GitHub) and I look forward to adding to it further as my knowledge progresses.
+I have become more confidence with the software of Python and GitHub, and I look forward to adding to it further as my knowledge progresses.
 
 <br><br>
 
@@ -308,111 +332,56 @@ There was plenty of errors encountered while creating this project but I shall a
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Copy%20and%20paste%20errors.PNG">
 </p>
 
+I had also hoped to create a section to evaluate algorithms however I was unable to get the scripts to run. I have included the .py file in the repository to show my attempts, the file is titled 'validation.py'.
+
 <br>
-
-To summarize my findings, I come to notice similar points being made about the Iris Data Set from those who have completed similar research:  
-- This is a popular data set for use within Machine Learning
-- Due to its small size (4 algorithms and 150 rows) it easily fits into memory (and on an A4 page) { https://machinelearningmastery.com/machine-learning-in-python-step-by-step/ }
-- High accuracy levels 
-
-
-
-Also it is amazing how many open sites are avaiable and the extent to which the Iris Data Set is used in modern machine learning. 
-
-
 
 <h2><strong>4. Appendix</h2></strong> <br>
 
-<p align="left">
-<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Ronald%20Fisher%20image.jpg">
-</p>
-
-<p align="left">
-<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/test-script-output.PNG">
-</p>
-
-<p align="left">
-<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Copy%20and%20paste%20errors.PNG">
-</p>
-
-<p align="left">
-<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Basic_Data.png">
-</p>
-
-p align="left">
-<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/min.png">
-</p>
-
-<p align="left">
-<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/max.png">
-</p>
-
-<p align="left">
-<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/mean.png">
-</p>
-
-<p align="left">
-<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/test-script-code.PNG">
-</p>
-
-<p align="left">
-<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/test-script-output.PNG">
-</p>
-
-<p align="left">
-<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Data%20Visualisation/Box%20Whisker%20Plots.png">
-</p>
-
-<p align="left">
-<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Data%20Visualisation/Histograms.png">
-</p>
-
-<p align="left">
-<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Data%20Visualisation/Scatter%20Plot%20Matrix.png">
-</p>
-
-<p align="left">
-<img src="">
-</p>
-
-
 <h2><strong>5. Bibliography</h2></strong> <br>
 
-https://stackoverflow.com/questions/14494747/add-images-to-readme-md-on-github - how to add images to ReadMe file
+[1] https://www.anaconda.com/
+[2] https://code.visualstudio.com/
+[3] https://www.python.org/
+[4] https://github.com/
+[5] https://en.wikipedia.org/wiki/Iris_flower_data_set
+[6] https://en.wikipedia.org/wiki/Iris_flower_data_set
+[7] https://stackoverflow.com/questions/36967126/why-do-i-get-good-accuracy-with-iris-dataset-with-a-single-hidden-node
+[8] https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+[9] https://en.wikipedia.org/wiki/Box_plot
+[10] https://pythonspot.com/matplotlib-pie-chart/
 
-https://gist.github.com/curran/a08a1080b88344b0c8a7 - GitHub info on python 
+<br>
 
-https://machinelearningmastery.com/machine-learning-in-python-step-by-step/ - Step by step of how to do a project with python 
+<strong><em>Additional references investigated but not used in my project</strong></em>
 
-https://rpubs.com/rpadebet/269829 - Using R but interesting project steps layout 
+- https://stackoverflow.com/questions/14494747/add-images-to-readme-md-on-github 
 
-https://gist.github.com/naufraghi/457394 - Python and Iris Data Set (possibly too in-depth)
+- https://gist.github.com/curran/a08a1080b88344b0c8a7 
 
-https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342 - Analysis of Iris Data Set & some history 
+- https://rpubs.com/rpadebet/269829 
 
-https://plot.ly/python/histograms/ - Python histograms - how to
+- https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342  
 
-https://stackoverflow.com/questions/33203645/how-to-plot-a-histogram-using-matplotlib-in-python-with-a-list-of-data Histograms - How to 
+- https://plot.ly/python/histograms/
 
-https://stackoverflow.com/questions/45721083/unable-to-plot-4-histograms-of-iris-dataset-features-using-matplotlib
+- https://stackoverflow.com/questions/33203645/how-to-plot-a-histogram-using-matplotlib-in-python-with-a-list-of-data  
 
-https://campus.datacamp.com/courses/statistical-thinking-in-python-part-1/graphical-exploratory-data-analysis?ex=5#skiponboarding
+- https://stackoverflow.com/questions/45721083/unable-to-plot-4-histograms-of-iris-dataset-features-using-matplotlib
 
-https://www.tutorialspoint.com/python/python_lists.htm  - how to lists max min 
+- https://campus.datacamp.com/courses/statistical-thinking-in-python-part-1/graphical-exploratory-data-analysis?ex=5#skiponboarding
 
+- https://www.tutorialspoint.com/python/python_lists.htm  
 
-EXAMPLES OF DATA print outs
+- https://www.kaggle.com/abhishekkrg/python-iris-data-visualization-and-explanation
 
-https://www.kaggle.com/abhishekkrg/python-iris-data-visualization-and-explanation
+- http://www.learn4master.com/algorithms/visualize-iris-dataset-using-python
 
-http://www.learn4master.com/algorithms/visualize-iris-dataset-using-python
+- https://www.kaggle.com/benhamner/python-data-visualizations
 
-https://www.kaggle.com/benhamner/python-data-visualizations
+- http://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html
 
-http://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html
-
-https://stackoverflow.com/questions/21548750/plotting-histograms-against-classes-in-pandas-matplotlib
-
+- https://stackoverflow.com/questions/21548750/plotting-histograms-against-classes-in-pandas-matplotlib
 
 * https://github.com/bensooraj/Making-predictions-on-the-Iris-Dataset/blob/master/Making%20predictions%20on%20the%20Iris%20Dataset.ipynb
 * https://www.kaggle.com/vikrishnan/iris-dataset/data
