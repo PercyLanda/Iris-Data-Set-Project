@@ -167,7 +167,7 @@ The below includes:
 
 <br>
 
-<h3><strong>Calculating the Min, Max and Mean of each column:</h3></strong>
+<h3><strong>Calculating the Min, Max and Mean of each column:</strong></h3>
 
 I wrote a seperate code script for each of these attributes and originally I was happy with them and the scripts outputted what I wanted.
 However after further research when writing other scripts, I realised that I could merge the 4 column's together into one line of output, saving me time, lines of code and also making the script look neater.
@@ -258,17 +258,6 @@ A advantage that a Box & Whisker Plots has over Histograms is that:
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Data%20Visualisation/Box%20Whisker%20Plots.png">
 </p>
-
-<h3> Multivariate Plots</h3>
-<h4>Scattor Plot Matrix - script and output</h4>
-
-<p align="left">
-<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Scattor%20plot%20code.png">
-</p>
-
-<p align="left">
-<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Data%20Visualisation/Scatter%20Plot%20Matrix.png">
-</p>
 <br>
 
 <h4>Pie Chart</h4>
@@ -284,6 +273,20 @@ Based on the equal measure of data for each section, we can see an even distribu
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/pie%20output.png">
 </p>
 
+<br>
+
+<h3> Multivariate Plots</h3>
+
+<h4>Scattor Plot Matrix - script and output</h4>
+
+<p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Scattor%20plot%20code.png">
+</p>
+
+<p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Data%20Visualisation/Scatter%20Plot%20Matrix.png">
+</p>
+<br>
 
 <h2><strong>3. Summary</h2></strong> <br>
 
@@ -338,22 +341,25 @@ I had also hoped to create a section to evaluate algorithms however I was unable
 
 <h2><strong>4. Appendix</h2></strong> <br>
 
+<em>All images for this project can be found within the contents of the repository</em>
+<br>
+
 <h2><strong>5. Bibliography</h2></strong> <br>
 
-[1] https://www.anaconda.com/
-[2] https://code.visualstudio.com/
-[3] https://www.python.org/
-[4] https://github.com/
-[5] https://en.wikipedia.org/wiki/Iris_flower_data_set
-[6] https://en.wikipedia.org/wiki/Iris_flower_data_set
-[7] https://stackoverflow.com/questions/36967126/why-do-i-get-good-accuracy-with-iris-dataset-with-a-single-hidden-node
-[8] https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
-[9] https://en.wikipedia.org/wiki/Box_plot
-[10] https://pythonspot.com/matplotlib-pie-chart/
+[1] https://www.anaconda.com/ <br>
+[2] https://code.visualstudio.com/ <br>
+[3] https://www.python.org/ <br>
+[4] https://github.com/ <br>
+[5] https://en.wikipedia.org/wiki/Iris_flower_data_set <br>
+[6] https://en.wikipedia.org/wiki/Iris_flower_data_set <br>
+[7] https://stackoverflow.com/questions/36967126/why-do-i-get-good-accuracy-with-iris-dataset-with-a-single-hidden-node <br>
+[8] https://machinelearningmastery.com/machine-learning-in-python-step-by-step/ <br>
+[9] https://en.wikipedia.org/wiki/Box_plot <br>
+[10] https://pythonspot.com/matplotlib-pie-chart/ <br>
 
 <br>
 
-<strong><em>Additional references investigated but not used in my project</strong></em>
+<strong><em>Additional references reviewed but not utilised in my project</strong></em>
 
 - https://stackoverflow.com/questions/14494747/add-images-to-readme-md-on-github 
 
