@@ -176,7 +176,7 @@ I chose to leave both outputs in the script to show you the difference between e
 
 With each of the below scripts, you could remove the code in lines 13-27 to allow the one liner be the output instead.
 
-<h4>Calculating the Min - script and output</h4>
+<h4>Calculating the Minimum</h4>
 
 <br>
 
@@ -192,7 +192,7 @@ With each of the below scripts, you could remove the code in lines 13-27 to allo
 
 <br>
 
-<h4>Calculating the Max - script and output </h4>
+<h4>Calculating the Maximum</h4>
 <br>
 
 <p align="left">
@@ -207,7 +207,7 @@ With each of the below scripts, you could remove the code in lines 13-27 to allo
 
 <br>
 
-<h4>Calculating the Mean - script and output</h4>
+<h4>Calculating the Mean</h4>
 <br>
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Mean%20code.png">
@@ -221,9 +221,9 @@ With each of the below scripts, you could remove the code in lines 13-27 to allo
 
 <br> 
 
-<h3><strong>Visual Graphs of the Univariable data</h3></strong>
+<h3><strong>Visual Graphs of Univariable Data</h3></strong>
 
-<h4>Histograms - script and output</h4>
+<h4>Histogram</h4>
 
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Historgram%20code.png">
@@ -243,7 +243,7 @@ This backs the theory that visual data is always going to show you a clearer dis
 
 <br>
 
-<h4>Box and Whisker Plots - script and output</h4>
+<h4>Box and Whisker Plots</h4>
 
 Box Plots are defined on Wikipedia as a good method of showing an accurate view of data:
 <br><em>"Outliers may be plotted as individual points. Box plots are non-parametric: they display variation in samples of a statistical population without making any assumptions of the underlying statistical distribution. The spacings between the different parts of the box indicate the degree of dispersion (spread) and skewness in the data, and show outliers."</em> [9]
@@ -275,9 +275,27 @@ Based on the equal measure of data for each section, we can see an even distribu
 
 <br>
 
-<h3> Multivariate Plots</h3>
+<h3>Multivariate Plot</h3>
 
-<h4>Scattor Plot Matrix - script and output</h4>
+<h4>Scattor Plot Matrix</h4>
+
+I have never created or used a scatter plot prior to this project so I chose to research information about it to understand its output and any significant advantages or disadavantages of using this over another visual data output.
+
+A description of how you view a scatterplot is explained as: <em>"You interpret a scatterplot by looking for trends in the data as you go from left to right"</em> <br>
+
+- If an uphill pattern is viewed as the graph moves left to right, it indicates that a postive relationship exists between the X and Y axis. And as the X-axis value increases the Y-axis value also tends to increase.
+<br>
+- On the other side of this, if the data resembles a downhill pattern then this indicates a negative relationship where as the X-axis increases the Y-axis value tends to decrease.
+<br>
+- If no pattern can be determined based on the data output then no relationship exists between X and Y.
+<br>
+<em>"Note that the scatterplot only suggests a linear relationship between the two sets of values. It does not suggest that an increase in the Y-axis causes the X-axis data to increase."
+<br>
+"A linear relationship between X and Y exists when the pattern of X– and Y-values resembles a line, either uphill (with a positive slope) or downhill (with a negative slope)."
+<br>
+"Scatterplots show possible associations or relationships between two variables. However, just because your graph or chart shows something is going on, it doesn’t mean that a cause-and-effect relationship exists."</em> [11]
+
+[11] http://www.dummies.com/education/math/statistics/how-to-interpret-a-scatterplot/
 
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Scattor%20plot%20code.png">
@@ -287,6 +305,7 @@ Based on the equal measure of data for each section, we can see an even distribu
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Data%20Visualisation/Scatter%20Plot%20Matrix.png">
 </p>
 <br>
+
 
 <h2><strong>3. Summary</h2></strong> <br>
 
