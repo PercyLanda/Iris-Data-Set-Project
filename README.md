@@ -1,18 +1,25 @@
 
-<h1><em><strong>A STUDY ON " THE IRIS FLOWER DATA SET " </h1></em></strong><br/>
+<h1 align="center"><em><strong>A STUDY ON " THE IRIS FLOWER DATA SET " </h1></em></strong><br/>
 
 </br>
 
 
-<h2><em> PROJECT REPORT - Submitted by: </h2></em>
-<h3><em> Valerie Walsh - Student Number: G00364748 </h3></em>
+<h2 align="center"><em> PROJECT REPORT - Submitted by: </h2></em>
+<h3 align="center"><em> Valerie Walsh - Student Number: G00364748 </h3></em>
 
 </br>
 
-<h3> Programming & Scripting - Higher Diploma in Data Analytics - Galway Mayo I.T. </h3> </br>
-<h3>Submission Date: April 2018 </h3> </br>
+<h3 align="center"> Programming & Scripting - Higher Diploma in Data Analytics - Galway Mayo I.T. </h3> </br>
+<h3 align="center">Submission Date: 29th April 2018 </h3> </br>
 
-</br>
+<p align="center">
+<img height="350" width="500" src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/iris%20flower.png">
+</p>
+
+<br>
+<br>
+<br>
+<br>
 
 <h2><em>Table of Contents </h2></em>
 
@@ -35,7 +42,7 @@
 <h2><strong> 1.	Introduction </h2></strong> <br>
 
 This repository has been created to record and show my work as I build and submit my project.
-I created a gitignore file and a LICENCE (Apache) based on my knowledge of creating my original repository for my weekly course tasks.
+In this repository I started out by creating a ReadMe File, a gitignore file and a LICENCE (Apache). I chose these based on my knowledge of creating my original repository for my weekly course tasks.
 
 The purpose of this project is to investigate "The Iris Flower Data Set" and prove my understanding of the data set and explain its importance to machine learning. This project is being undertaken as apart of a final submission for the subject 'Programming and Scripting' as apart of my Diploma in Computer Science with Data Analytics.
 
@@ -62,8 +69,8 @@ The Python Programming Language is another download which is heavily utilised an
 
 Since this is the platform for uploading my work, I feel its fitting to mention GitHub [4] as another resource of technology used. GitHub is been described on Wikipedia with this explaination: </br>
 
-<em> GitHub (originally known as Logical Awesome LLC)[3] is a web-based hosting service for version control using git. It is mostly used for computer code. It offers all of the distributed version control and source code management (SCM) functionality of Git as well as adding its own features. It provides access control and several collaboration features such as bug tracking, feature requests, task management, and wikis for every project.
-GitHub offers plans for both private repositories and free accounts[5] which are commonly used to host open-source software projects.[6] As of April 2017, GitHub reports having almost 20 million users and 57 million repositories,making it the largest host of source code in the world.</em>
+<em> "GitHub (originally known as Logical Awesome LLC)[3] is a web-based hosting service for version control using git. It is mostly used for computer code. It offers all of the distributed version control and source code management (SCM) functionality of Git as well as adding its own features. It provides access control and several collaboration features such as bug tracking, feature requests, task management, and wikis for every project.
+GitHub offers plans for both private repositories and free accounts which are commonly used to host open-source software projects. As of April 2017, GitHub reports having almost 20 million users and 57 million repositories,making it the largest host of source code in the world."</em> [5]
 
 I also relied heavily on the weekly videos supplied by our lecturer via the Moodle page. I found these invaluable based on the knowledge and skills which they provided to me. 
 
@@ -72,7 +79,7 @@ I also relied heavily on the weekly videos supplied by our lecturer via the Mood
 <h2><strong>2. Discussion</h2></strong>
 <h3><strong>2.1 Background</h3></strong> <br>
 
-The Iris Flower Data Set [5] was created by Ronald Fisher in 1936. It is described as a multivariate data set as an example of linear discriminant analysis. It is a data set which consists of 50 samples taken from three species of the Iris flower. The four features used for this data set include the length and width of the sepals and petals.
+The Iris Flower Data Set [6] was created by Ronald Fisher in 1936. It is described as a multivariate data set as an example of linear discriminant analysis. It is a data set which consists of 50 samples taken from three species of the Iris flower. The four features used for this data set include the length and width of the sepals and petals.
 
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Ronald%20Fisher%20image.jpg">
@@ -86,14 +93,13 @@ The data set consists of 50 samples from each of three species of Iris (Iris set
 The Iris Flower Data Set itself is extremely popular and utilized as a testing tool within machine learning. Part of its popularity I believe, is due to its reliabillity and ease of use. 
 One contributor on Stackflow descirbed the reasons for its high accuracy: <br><br>
 <em>"(a) there are few features to begin with and (b) that there are high linear correlations with class, would all point to a less complex, linear function as being the appropriate predictive model-- by using a single hidden node, you are very nearly using a linear model.
-It can also be noted that, in the absence of any hidden layer (i.e., just input and output nodes), and when the logistic transfer function is used, this is equivalent to logistic regression."</em>
+It can also be noted that, in the absence of any hidden layer (i.e., just input and output nodes), and when the logistic transfer function is used, this is equivalent to logistic regression."</em> [7]
 <br><br>
 While another contributor responded to the same post with a sample test for the data set: <br><br>
 <em>" The Iris data set can even be predicted with a very high accuracy (96%) by using just three simple rules on only one attribute:
 If Petal.Width = (0.0976,0.791] then Species = setosa
 If Petal.Width = (0.791,1.63]   then Species = versicolor
-If Petal.Width = (1.63,2.5]     then Species = virginica " </em> <br>
-[7] https://stackoverflow.com/questions/36967126/why-do-i-get-good-accuracy-with-iris-dataset-with-a-single-hidden-node
+If Petal.Width = (1.63,2.5]     then Species = virginica " </em> <br> [7]
 
 <br><br>
 <h3><strong>2.2 Preparation</h3></strong> <br>
@@ -109,7 +115,7 @@ My project management plan:
 - Ensure to regularly update the ReadMe file to ensure accuracy and cover all content
 
 The main reason for taking this approach is due to the fact that life can always take over and you can end up running out of time and submitting poor quality work. This is something I hope to have avoided due to the above plan.
-<br>
+<br><br>
 There are additional libraries available to use within Visual Studio Code (VSC), which I found useful when running my code e.g. NumPy, Matplotlib and Pandas. In order to ensure that these are available to you, I would recommend running a script in VSC  which checks the libraries are available. I have provided two images from my own system of me completing this.
 
 Firstly the code that I ran: 
@@ -124,7 +130,7 @@ And secondly, the output from VSC showing the libraries and their versions:
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/test-script-output.PNG">
 </p>
 
-I obtained the list of these libraries via this online source: [8] https://machinelearningmastery.com/machine-learning-in-python-step-by-step/.
+I obtained the list of these libraries via an online source, see reference [8]
 
 
 <h3><strong>2.3 Investigation</h3></strong> <br>
@@ -138,13 +144,9 @@ The first image of each section is the script I wrote in Python and the second i
 <h3><em>Exploring the Data</h3></em>
 
 For the first script, I wanted an output of some simple statistics about the data.
-The below includes: 
-- An overview of the data i.e. how much is in the set in terms of colums and rows
-- The header or the beginning of the data, it is worth noting that you can select the number of lines you wish it to output  
-- A table of statistics for the data e.g. mean, min, max 
-- The distribution of data in terms of 'class' - I am aware that it is well known that this particular data set has 3 classes and 50 samples for each but I felt this script would be worthwhile including to show the calculations.
-- A script requesting random values of the data set to be outputted
-- Another script requesting random value but this script has set limiters / values for the outputs
+I chose to run multiple codes in the one script to show the overview of information in one section.
+
+Below there are two images so as to show all the code included.
 
 <br>
 
@@ -161,6 +163,15 @@ The below includes:
 <br>
 <br>
 
+As you will be by the output below, it includes: 
+- An overview of the data i.e. how much is in the set in terms of colums and rows
+- The beginning of the data, it is worth noting that you can select the number of lines of data you want it to output  
+- A table of statistics for the data e.g. mean, min, max 
+- The distribution of data in terms of 'class' - I am aware that it is well known that this particular data set has 3 classes and 50 samples for each but I felt this script would be worthwhile including to show the calculations.
+- A script requesting random values of the data set to be outputted
+- Another script requesting random value but this script has limiters set for the outputs
+<br>
+
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Basic_Data.png">
 </p>
@@ -170,22 +181,22 @@ The below includes:
 <h3><strong>Calculating the Min, Max and Mean of each column:</strong></h3>
 
 I wrote a seperate code script for each of these attributes and originally I was happy with them and the scripts outputted what I wanted.
-However after further research when writing other scripts, I realised that I could merge the 4 column's together into one line of output, saving me time, lines of code and also making the script look neater.
+However after further research when writing other scripts, I realised that I could improve these codes and merge the 4 column's together into one line of output. This would not only save me time and having to write additional lines of code but it would also making the script look neater.
 
-I chose to leave both outputs in the script to show you the difference between each option.
-
-With each of the below scripts, you could remove the code in lines 13-27 to allow the one liner be the output instead.
+I have chosen to include both outputs in the script to show you the difference between each option.
+With the above in mind, you could remove the code in lines 13-27 to allow the one liner be the output instead in each of the codes.
 
 <h4>Calculating the Minimum</h4>
 
+The below is outputted in the same order as the data file is written: Petal Length, Petal Width, Sepal Length, Sepal Width
 <br>
 
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Min%20Code.png">
 </p>
-
 <br>
-
+ 
+<br>
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/min.png">
 </p>
@@ -194,6 +205,9 @@ With each of the below scripts, you could remove the code in lines 13-27 to allo
 
 <h4>Calculating the Maximum</h4>
 <br>
+
+With the maximum outputs, you can view that there is a closer figure for both the Petal Length and Sepal Length of 7.9 and 6.9.
+Whereas when we calculated the minimum there was a bigger difference: Petal Length 4.3 and Sepal Length 1.0
 
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Max%20code.png">
@@ -218,6 +232,21 @@ With each of the below scripts, you could remove the code in lines 13-27 to allo
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/mean.png">
 </p>
+
+<br>
+<br>
+
+<h3>Discussing the Min, Max and Mean</h3>
+
+Having reviewed the above information it is clear to see that there is a bigger range of data calculated in the form of sepal lengths among the flowers measured. The sepal length ranges from 1.0 - 6.9 where there is a difference of approx. 5.9cm between the min and max values. 
+This would be the category that covers the largest range of the data.
+Whereas the other categories range is as follows:
+Petal Length - 3.6cm
+Petal Width - 2.4cm
+Sepal Width - 2.4cm
+
+One explaination for such a big range when it comes to 'Sepal Length' is that the 3 different flower types possibly fall into different sizes on the spectrum e.g  Setosa could be 0-2cm, Versicolor 2-5cm, Virginica 3-6cm. And these differences would have an effect when calcaulating the mean with a larger range to calculate from.
+The other areas of data seem to have less of a range where their min, max and means seem to range relatively close to one another.
 
 <br> 
 
@@ -251,6 +280,7 @@ Box Plots are defined on Wikipedia as a good method of showing an accurate view 
 A advantage that a Box & Whisker Plots has over Histograms is that:
 <em>"They take up less space and are therefore particularly useful for comparing distributions between several groups or sets of data."</em> [9]
 <br>
+
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Box%20and%20Whisker%20plot%20code.png">
 </p>
@@ -262,17 +292,22 @@ A advantage that a Box & Whisker Plots has over Histograms is that:
 
 <h4>Pie Chart</h4>
 
-I have included the method of creating a Pie Chart simply to gain a better understanding of creating graphs via Python. 
-Based on the equal measure of data for each section, we can see an even distribution in the below output screenshot.[10]
+I have included the output of creating a Pie Chart in my project as I wanted to gain a better understanding of creating graphs via Python. 
+
+Below is a script I wrote with the help of reference [10]
+<br>
 
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/pie.png">
 </p>
 
+Based on the equal allocation of data for each section ith this data set, we can see an even distribution of data with each section of this pie chart.
+
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/pie%20output.png">
 </p>
 
+<br>
 <br>
 
 <h3>Multivariate Plot</h3>
@@ -281,7 +316,7 @@ Based on the equal measure of data for each section, we can see an even distribu
 
 I have never created or used a scatter plot prior to this project so I chose to research information about it to understand its output and any significant advantages or disadavantages of using this over another visual data output.
 
-A description of how you view a scatterplot is explained as: <em>"You interpret a scatterplot by looking for trends in the data as you go from left to right"</em> <br>
+A description of how you view a scatterplot is explained as: <em>"You interpret a scatterplot by looking for trends in the data as you go from left to right"</em> [11] <br>
 
 - If an uphill pattern is viewed as the graph moves left to right, it indicates that a postive relationship exists between the X and Y axis. And as the X-axis value increases the Y-axis value also tends to increase.
 <br>
@@ -289,13 +324,13 @@ A description of how you view a scatterplot is explained as: <em>"You interpret 
 <br>
 - If no pattern can be determined based on the data output then no relationship exists between X and Y.
 <br>
-<em>"Note that the scatterplot only suggests a linear relationship between the two sets of values. It does not suggest that an increase in the Y-axis causes the X-axis data to increase."
+<em>"Note that the scatterplot only suggests a linear relationship between the two sets of values. It does not suggest that an increase in the Y-axis causes the X-axis data to increase." [11]
 <br>
-"A linear relationship between X and Y exists when the pattern of X– and Y-values resembles a line, either uphill (with a positive slope) or downhill (with a negative slope)."
+"A linear relationship between X and Y exists when the pattern of X– and Y-values resembles a line, either uphill (with a positive slope) or downhill (with a negative slope)." [11]
 <br>
 "Scatterplots show possible associations or relationships between two variables. However, just because your graph or chart shows something is going on, it doesn’t mean that a cause-and-effect relationship exists."</em> [11]
 
-[11] http://www.dummies.com/education/math/statistics/how-to-interpret-a-scatterplot/
+<br>
 
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Scattor%20plot%20code.png">
@@ -306,13 +341,35 @@ A description of how you view a scatterplot is explained as: <em>"You interpret 
 </p>
 <br>
 
+<h4>3D Scatter Plot</h4>
+
+Having created the above scatter plot, I wanted to give a 3D scatter plot a shot.
+Unfortunately I was unable to successfully create a 3D based on the data set info, but I did find an interesting 3D scatter plot script online which was created with random values so I have ran this script to include in this project as I hope to revisit and use the data values in the future. Reference [12]
+
+<p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/3D%20scatter%20code.png">
+</p>
+<br>
+The above code has set value limits of 50 and the script requests random outputs so the below image shows those outputs:
+<br>
+
+<p align="left">
+<img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/3D%20Scatter.png">
+</p>
+
+<br>
+<br>
 
 <h2><strong>3. Summary</h2></strong> <br>
 
-To summarise my work I have come to understand 
-I have also achieved what I set out to do which was understand the data set and how to manipulate the data via writing and executing scripts.
+I have come to understand that the area of programming is an extremely indepth and complex one, where there are various methods to calculate the same information.
+My investigations have only touched the surface with this area and over time I believe that I will be able to revisit and improve my scripts.
+I have also achieved what I set out to do at the beginning of this project, which was to understand the data set while also learning methods of how to manipulate the data through writing and executing scripts.
+In my investigations, I did come across more complex scripts which I wanted to pursue however based on my knowledge and timescale, I chose to reference these in my investigations and I hope to revisit this in the future to execute myself. 
 
-<h3>3.1 Findings<h3>
+<br>
+
+<h3>3.1 Findings</h3>
 
 To summarize my findings, I come to notice similar points being made about the Iris Data Set from those who have completed similar research:  
 - This is a popular data set for use within Machine Learning
@@ -338,6 +395,7 @@ Some of the newly attained skills include:
 - Using iPython as an active terminal to test code and outputs before committing them to scripts 
 - Learning new terminology within GitHub itself i.e. learning what 'forking a project' means. This would lead me to believe that my work was seen as a good standard for someone to wish to reference it. 
 - Also learning new tips and tricks with using NumPy in Visual Studio Code - using the 'tab' key to view commands available with NumPy
+- I discovered another way to add spacing within Python scripts ('\n') which allowed me to make the script cleaner looking 
 <br>
 I have become more confidence with the software of Python and GitHub, and I look forward to adding to it further as my knowledge progresses.
 
@@ -354,7 +412,7 @@ There was plenty of errors encountered while creating this project but I shall a
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Copy%20and%20paste%20errors.PNG">
 </p>
 
-I had also hoped to create a section to evaluate algorithms however I was unable to get the scripts to run. I have included the .py file in the repository to show my attempts, the file is titled 'validation.py'.
+* I had also hoped to create a section to evaluate algorithms however I was unable to get the scripts to run. I have included the .py file in the repository to show my attempts, the file is titled 'validation.py': https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/validation.py
 
 <br>
 
@@ -369,12 +427,15 @@ I had also hoped to create a section to evaluate algorithms however I was unable
 [2] https://code.visualstudio.com/ <br>
 [3] https://www.python.org/ <br>
 [4] https://github.com/ <br>
-[5] https://en.wikipedia.org/wiki/Iris_flower_data_set <br>
+[5] https://en.wikipedia.org/wiki/GitHub <br>
 [6] https://en.wikipedia.org/wiki/Iris_flower_data_set <br>
 [7] https://stackoverflow.com/questions/36967126/why-do-i-get-good-accuracy-with-iris-dataset-with-a-single-hidden-node <br>
 [8] https://machinelearningmastery.com/machine-learning-in-python-step-by-step/ <br>
 [9] https://en.wikipedia.org/wiki/Box_plot <br>
 [10] https://pythonspot.com/matplotlib-pie-chart/ <br>
+[11] http://www.dummies.com/education/math/statistics/how-to-interpret-a-scatterplot/ <br>
+[12] https://stackoverflow.com/questions/1985856/how-to-make-a-3d-scatter-plot-in-python <br>
+
 
 <br>
 
