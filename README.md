@@ -13,7 +13,8 @@
 <h3 align="center">Submission Date: 29th April 2018 </h3> </br>
 
 <p align="center">
-<img height="350" width="500" src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/iris%20flower.png">
+<img height="350" width="500" src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/iris%20flower.png"
+<reference: https://xantheunwinart.deviantart.com/art/iris-flower-289614269>
 </p>
 
 <br>
@@ -163,11 +164,13 @@ Below there are two images so as to show all the code included.
 <br>
 <br>
 
-As you will be by the output below, it includes: 
+As you will see by the output below, it includes: 
 - An overview of the data i.e. how much is in the set in terms of colums and rows
 - The beginning of the data, it is worth noting that you can select the number of lines of data you want it to output  
 - A table of statistics for the data e.g. mean, min, max 
 - The distribution of data in terms of 'class' - I am aware that it is well known that this particular data set has 3 classes and 50 samples for each but I felt this script would be worthwhile including to show the calculations.
+
+
 - A script requesting random values of the data set to be outputted
 - Another script requesting random value but this script has limiters set for the outputs
 <br>
@@ -206,8 +209,10 @@ The below is outputted in the same order as the data file is written: Petal Leng
 <h4>Calculating the Maximum</h4>
 <br>
 
-With the maximum outputs, you can view that there is a closer figure for both the Petal Length and Sepal Length of 7.9 and 6.9.
-Whereas when we calculated the minimum there was a bigger difference: Petal Length 4.3 and Sepal Length 1.0
+With the maximum outputs from my script, you can see that there is a similar result for both the Petal Length and Sepal Length of 7.9 and 6.9.
+Whereas when we calculated the minimum there was a bigger difference between their results: Petal Length 4.3 and Sepal Length 1.0
+The petal length is the largest output, followed by sepal length, petal width and sepal width.
+<br>
 
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Max%20code.png">
@@ -222,6 +227,7 @@ Whereas when we calculated the minimum there was a bigger difference: Petal Leng
 <br>
 
 <h4>Calculating the Mean</h4>
+
 <br>
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Mean%20code.png">
@@ -257,15 +263,19 @@ The other areas of data seem to have less of a range where their min, max and me
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Historgram%20code.png">
 </p>
+<br>
 
 Having produced the histograms for this data, I chose to compare it against the output of the mean attribute.
 The mean may not always be a clear or accurate representation of the data. This is where a histogram provides a more accurate depiction.
 <br>
 For example, the mean of the <em>Sepal length</em> is 5.843333 but as per the histogram you can see the majority of the data collected ranges from approx 1cm - 6.8cm.
+
 <br>
+
 Also another comparison is the mean of the <em>Petal length</em> is calculated at 3.75866 but the histogram shows a large amount of the data measured at 1cm ad then another cluster at 4-5cm.
 This backs the theory that visual data is always going to show you a clearer distribution and representation of the data.
 
+<br>
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Data%20Visualisation/Histograms.png">
 </p>
@@ -318,23 +328,44 @@ I have never created or used a scatter plot prior to this project so I chose to 
 
 A description of how you view a scatterplot is explained as: <em>"You interpret a scatterplot by looking for trends in the data as you go from left to right"</em> [11] <br>
 
-- If an uphill pattern is viewed as the graph moves left to right, it indicates that a postive relationship exists between the X and Y axis. And as the X-axis value increases the Y-axis value also tends to increase.
-<br>
-- On the other side of this, if the data resembles a downhill pattern then this indicates a negative relationship where as the X-axis increases the Y-axis value tends to decrease.
-<br>
-- If no pattern can be determined based on the data output then no relationship exists between X and Y.
-<br>
+* If an uphill pattern is viewed as the graph moves left to right, it indicates that a postive relationship exists between the X and Y axis. And as the X-axis value increases the Y-axis value also tends to increase. <br>
+* On the other side of this, if the data resembles a downhill pattern then this indicates a negative relationship where as the X-axis increases the Y-axis value tends to decrease. <br>
+* If no pattern can be determined based on the data output then no relationship exists between X and Y. <br>
 <em>"Note that the scatterplot only suggests a linear relationship between the two sets of values. It does not suggest that an increase in the Y-axis causes the X-axis data to increase." [11]
 <br>
 "A linear relationship between X and Y exists when the pattern of X– and Y-values resembles a line, either uphill (with a positive slope) or downhill (with a negative slope)." [11]
 <br>
 "Scatterplots show possible associations or relationships between two variables. However, just because your graph or chart shows something is going on, it doesn’t mean that a cause-and-effect relationship exists."</em> [11]
-
+<br>
 <br>
 
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Scattor%20plot%20code.png">
 </p>
+
+<br>
+Based on the above description in relation to uphill or downhill patterns, and what they mean, I have concluded the following based on each attribute:
+
+<h6>Sepal Width</h6>
+Having reviewed the output of this data, I have concluded that there is no relationship present between Petal Width and Petal Length.<br>
+I would say that there is no relationship with Sepal Length as the output is extremely sporadic. The data goes into an uphill trend but then it drops low and starts again.
+
+<h6>Sepal Length</h6>
+Having reviewed the plots for Sepal Length this I believe that a positive relationship is present with Petal Length as there is an uphill trend visible. <br>
+It could be potentially argued that there is a relatonship with Petal Width as although there is a poor start to the data, it does trend upwards as it progresses.<br>
+There is no relationship found with the Sepal Width as the data is scattered as opposed to following one specific trend. <br>
+
+<br>
+<h6>Petal Length</h6>
+With this output, there is a positive relationship with Petal Width and Sepal Length. <br>
+The data with Sepal Width has no pattern to report.<br>
+
+<br>
+<h6>Petal Width</h6>
+A strong positive relationship is visible with the Petal Length data. <br>
+There is a relationship present with Sepal Length and Sepal Width but the uphill trend only starts into the data.
+
+<br>
 
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Data%20Visualisation/Scatter%20Plot%20Matrix.png">
@@ -363,8 +394,9 @@ The above code has set value limits of 50 and the script requests random outputs
 <h2><strong>3. Summary</h2></strong> <br>
 
 I have come to understand that the area of programming is an extremely indepth and complex one, where there are various methods to calculate the same information.
-My investigations have only touched the surface with this area and over time I believe that I will be able to revisit and improve my scripts.
-I have also achieved what I set out to do at the beginning of this project, which was to understand the data set while also learning methods of how to manipulate the data through writing and executing scripts.
+My investigations have only touched the surface with this area and over time I believe that I will be able to revisit and improve my scripts.<br>
+Based on my investigations, I have also come to the understanding that graphs are the most reliable method of output when it comes to having a clear and detailed breakdown of the distribution of data. <br>
+I have also achieved what I set out to do at the beginning of this project, which was to understand the data set while also learning methods of how to manipulate the data through writing and executing scripts.<br>
 In my investigations, I did come across more complex scripts which I wanted to pursue however based on my knowledge and timescale, I chose to reference these in my investigations and I hope to revisit this in the future to execute myself. 
 
 <br>
@@ -435,6 +467,8 @@ There was plenty of errors encountered while creating this project but I shall a
 [10] https://pythonspot.com/matplotlib-pie-chart/ <br>
 [11] http://www.dummies.com/education/math/statistics/how-to-interpret-a-scatterplot/ <br>
 [12] https://stackoverflow.com/questions/1985856/how-to-make-a-3d-scatter-plot-in-python <br>
+
+- Image on cover page: https://xantheunwinart.deviantart.com/art/iris-flower-289614269
 
 
 <br>
