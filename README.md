@@ -290,7 +290,7 @@ em>"Outliers may be plotted as individual points. Box plots are non-parametric: 
 <br>
 A advantage that a Box & Whisker Plots has over Histograms is that:
 <em>"They take up less space and are therefore particularly useful for comparing distributions between several groups or sets of data."</em> [9]
-
+<br>
 <br>
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Box%20and%20Whisker%20plot%20code.png">
@@ -494,7 +494,7 @@ Some of the newly attained skills include:
 
 There was plenty of errors encountered while creating this project but I shall aim to keep them to a summary for this part of my project.
 
-- Adding images to ReadMe is something that caused me great frustration. I had found the option online to add it via ![image](image.file.name) but this did not work, I attempted to add via a direct link and finally after a week of trying to resolve myself, I posted for help on the internal course Discussion Forum and thankfully my prayeres were answered.
+- Adding images to ReadMe is something that caused me great frustration. I had found the option online to add it via ![image](image.file.name) but this did not work, I attempted to add via a direct link and finally after a week of trying to resolve myself, I posted for help on the internal course Discussion Forum and thankfully my prayers were answered.
 
 - When creating Box & Whisker plots, I wanted to play around with the layout and see could I get them to appear one per line instead of 2 and 2 so I tried to play with the layout(2,2) part of the code but unfortunately I did not get any further with it
 
@@ -526,7 +526,7 @@ There was plenty of errors encountered while creating this project but I shall a
 [7] https://stackoverflow.com/questions/36967126/why-do-i-get-good-accuracy-with-iris-dataset-with-a-single-hidden-node <br>
 [8] https://machinelearningmastery.com/machine-learning-in-python-step-by-step/ <br>
 [9] https://en.wikipedia.org/wiki/Box_plot <br>
-[10] https://www.wikihow.com/Make-a-Box-and-Whisker-Plot
+[10] https://www.wikihow.com/Make-a-Box-and-Whisker-Plot <br>
 [11] https://pythonspot.com/matplotlib-pie-chart/ <br>
 [12] http://www.dummies.com/education/math/statistics/how-to-interpret-a-scatterplot/ <br>
 [13] https://stackoverflow.com/questions/1985856/how-to-make-a-3d-scatter-plot-in-python <br>
