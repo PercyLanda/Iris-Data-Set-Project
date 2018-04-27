@@ -410,44 +410,55 @@ The above code has set value limits of 50 and the script requests random outputs
 </p>
 
 <br>
+<br>
 
 <h3>Similar Investigations</h3>
 During my research, I found numerous projects completed on the same subject by many other individuals. There are similarities within each but also visible different styles of how each carried out and executed their data. <br>
-In these projects, you can see the programming level of difficulty increasing as the project progresses. <br>
-I found it interesting to view the scripts
+In these projects, you can see the various levels of programming ability and some of the scripts increased in difficulty as the project progressed. <br>
+I found it interesting to view the scripts of each and although I was unable to replicate these, I chose to avoid investigating further based on my current level of knowledge and understanding. I did however want to make a few comparisons of some: <br>
+
+- In the projects referenced as [15] [17] and [21], I would describe these as in-depth examples where they all have a similar take on testing the data via (i) evaluating algorithms, (ii) creating validation datasets, (iii) building models and (iv) making predictions. 
+Although these are similar tasks, they are all completed individually.
+
+- Those referenced as [16] and [18] I found easy to interpret and follow as they showed a similar knowledge to my current level.
+
+- References [19] and [20] were made up majority wise of scripts that produced graphs. I found reviewing some of these very interesting and would like to learn more in relation to creating some of them, particularly: Violin, RadViz, Parallel Coordinates and Andrew Curves.
+
+I look forward to returning to this project to complete further commits where I can expand based on attaining further knowledge to complete these with ease.
 
 <br>
 
 <h2><strong>3. Summary</h2></strong> <br>
 
-It was during this project that I came to fully appreciate just how complex and indepth the area of programming is. A prime example of this is that there is no 'one-way' to gather a result. There are many options you can choose when running a script: multiple lines of code, for loops, functions etc. <br>
-As it has been said many a time by our lecturer, programming "is like driving a car", and right now I think its fair to say I have just got my L plates. <br>
+It was only when I undertook this project that I came to fully appreciate just how complex and indepth the area of programming is. A prime example of this is the fact that there is no 'one-way' to gather a result. There are many methods and options that you can choose from when writing and running a script: multiple lines of code, for loops, functions etc. <br>
+As it has been said many a time by our lecturer, programming "is like driving a car", and right now I think its fair to say I have just got my L plates.<br>
 My investigations have only touched the surface with this area and over time I believe that I will be able to revisit and improve my scripts.<br>
-Based on my investigations, I have also come to the understanding that visual graphs are the most reliable method of output when it comes to having a clear and detailed breakdown of the distribution of data. When you output data alone, you are merely being given the calculated average of the compiled data which may sometimes be enough but it is always good to have options. <br>
-I have achieved what I set out to do at the beginning of this project, which was to understand the data set and its importance to machine learning, while also learning methods of how to manipulate the data via writing and executing scripts.
+I would personally choose visual data outputs going forward should I need to investigate a data set again. The reason for this is bassed on the fact that visual outputs give a fairer representation of data as opposed to going with calculations alone.
 
-<br>
 <br>
 
 <h3>3.1 Findings</h3>
 
 There are certainly plenty of people out there who have previously completed a similar project to my own. <br>
-Some stuck to basic outputs, some went extremely indepth and produced complex outputs.
+Some stuck to basic outputs, some went extremely indepth and produced complex outputs and some do a combination of both.
 
-<br>
-I would personally prefer visual data outputs going forward should I need to investigate a data set again. The reason for this is bassed on the fact that visual outputs give a fairer representation of data as opposed to going with calculations alone.
+Based on my investigations, I have also come to the conclusion that visual graphs are the most reliable method of output when it comes to having a clear and detailed breakdown of the distribution of data. When you output data alone, you are merely giving the calculated average of the compiled data which may sometimes be enough depending on the reason for the research, but it is always good to have options. <br>
+
 <br>
 
 I notice similar points being made about the Iris Data Set from those who have completed similar research:  
+
 - This is a popular data set for use within Machine Learning
 - Due to its small size (4 algorithms and 150 rows) it easily fits into memory (and on an A4 page) [8]
 - High accuracy levels 
 
 <br>
-It amazed me that there arem so many 'open sites' avaiable and the extent to which the Iris Data Set is used in modern machine learning. 
+It amazed me that there are so many 'open sites' avaiable and the extent to which the Iris Data Set is used in modern machine learning. This is something that I feel is extremely beneficial to those starting out like myself where you have the chance to learn and also give credit to your resources by referencing these.
+<br>
+I have achieved what I set out to do at the beginning of this project, which was to understand the data set and its importance to machine learning, while also learning methods of how to manipulate the data via writing and executing scripts.
 
 <br>
-
+<br>
 <h3>3.2 Development</h3>
 I have learned a great deal since having undertaken this project. Prior to commencing this course in January, I had no previous programming experience and found the weekly tasks challenging. 
 With this project I was required to go out of my comfort zone where I found myself spending considerable time running, testing and tweaking code to produce results. But I am very proud of the content that I have produced, I found it both daunting and extensively rewarding. 
@@ -476,10 +487,13 @@ Some of the newly attained skills include:
 - I discovered another way to add spacing within Python scripts ('\n') which allowed me to make the script cleaner looking. 
 
 - I have become more confidence with the software of Python and GitHub, and I look forward to adding to it further as my knowledge progresses.
+
 <br><br>
 
 <h3>3.3 Errors Encountered</h3>
+
 There was plenty of errors encountered while creating this project but I shall aim to keep them to a summary for this part of my project.
+
 - Adding images to ReadMe is something that caused me great frustration. I had found the option online to add it via ![image](image.file.name) but this did not work, I attempted to add via a direct link and finally after a week of trying to resolve myself, I posted for help on the internal course Discussion Forum and thankfully my prayeres were answered.
 
 - When creating Box & Whisker plots, I wanted to play around with the layout and see could I get them to appear one per line instead of 2 and 2 so I tried to play with the layout(2,2) part of the code but unfortunately I did not get any further with it
@@ -492,7 +506,7 @@ There was plenty of errors encountered while creating this project but I shall a
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Copy%20and%20paste%20errors.PNG">
 </p>
 
-* I had also hoped to create a section to evaluate algorithms however I was unable to get the scripts to run. I have included the .py file in the repository to show my attempts, the file is titled 'validation.py': https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/validation.py
+- I had also hoped to create a section to evaluate algorithms however I was unable to get the scripts to run. I have included the .py file in the repository to show my attempts, the file is titled 'validation.py': https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/validation.py
 
 <br>
 
@@ -524,6 +538,10 @@ There was plenty of errors encountered while creating this project but I shall a
 [19] https://www.kaggle.com/benhamner/python-data-visualizations <br>
 [20] http://www.learn4master.com/algorithms/visualize-iris-dataset-using-python <br>
 [21] https://github.com/bensooraj/Making-predictions-on-the-Iris-Dataset/blob/master/Making%20predictions%20on%20the%20Iris%20Dataset.ipynb <br>
+<br>
+
+<h6>References - viewed but not utilised in the research</h6>
+
 [22] https://www.kaggle.com/vikrishnan/iris-dataset/data <br>
 [23] https://stackoverflow.com/questions/14494747/add-images-to-readme-md-on-github <br>
 [24] https://plot.ly/python/histograms/ <br>
