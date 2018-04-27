@@ -527,7 +527,7 @@ There was plenty of errors encountered while creating this project but I shall a
 [22] https://www.kaggle.com/vikrishnan/iris-dataset/data <br>
 [23] https://stackoverflow.com/questions/14494747/add-images-to-readme-md-on-github <br>
 [24] https://plot.ly/python/histograms/ <br>
-[25] https://stackoverflow.com/questions/33203645/how-to-plot-a-histogram-using-matplotlib-in-python-with-a-list-of-data <br>  
+[25] https://stackoverflow.com/questions/33203645/how-to-plot-a-histogram-using-matplotlib-in-python-with-a-list-of-data  
 [26] https://www.tutorialspoint.com/python/python_lists.htm  <br>
 [27] http://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html <br> 
 [28] https://stackoverflow.com/questions/21548750/plotting-histograms-against-classes-in-pandas-matplotlib <br> 
