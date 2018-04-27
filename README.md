@@ -73,7 +73,7 @@ Since this is the platform for uploading my work, I feel its fitting to mention 
 <em> "GitHub (originally known as Logical Awesome LLC)[3] is a web-based hosting service for version control using git. It is mostly used for computer code. It offers all of the distributed version control and source code management (SCM) functionality of Git as well as adding its own features. It provides access control and several collaboration features such as bug tracking, feature requests, task management, and wikis for every project.
 GitHub offers plans for both private repositories and free accounts which are commonly used to host open-source software projects. As of April 2017, GitHub reports having almost 20 million users and 57 million repositories,making it the largest host of source code in the world."</em> [5]
 
-I also relied heavily on the weekly videos supplied by our lecturer via the Moodle page. I found these invaluable based on the knowledge and skills which they provided to me. 
+I also relied heavily on the weekly videos supplied by our lecturer via the Moodle page. I found these invaluable based on the knowledge and skills which they provided to me. In addition to the course information, I also heavily utilised the class 'Discussion Forum' to post queries which were resolved by class members.
 
 <br>
 
@@ -164,15 +164,13 @@ Below there are two images so as to show all the code included.
 <br>
 <br>
 
-As you will see by the output below, it includes: 
-- An overview of the data i.e. how much is in the set in terms of colums and rows
-- The beginning of the data, it is worth noting that you can select the number of lines of data you want it to output  
-- A table of statistics for the data e.g. mean, min, max 
+As per the script above, it includes: 
+- An overview of the data i.e. how much is in the set in terms of colums and rows.
+- The beginning of the data, it is worth noting that you can select the number of lines of data you want it to output.
+- A table of statistics for the data e.g. mean, min, max.
 - The distribution of data in terms of 'class' - I am aware that it is well known that this particular data set has 3 classes and 50 samples for each but I felt this script would be worthwhile including to show the calculations.
-
-
-- A script requesting random values of the data set to be outputted
-- Another script requesting random value but this script has limiters set for the outputs
+- A script requesting random values of the data set to be outputted.
+- Another script requesting random value but this script has limiters set for the outputs.
 <br>
 
 <p align="left">
@@ -265,8 +263,8 @@ The other areas of data seem to have less of a range where their min, max and me
 </p>
 <br>
 
-Having produced the histograms for this data, I chose to compare it against the output of the mean attribute.
-The mean may not always be a clear or accurate representation of the data. This is where a histogram provides a more accurate depiction.
+Having produced histograms for this data, I chose to compare it against the output of the mean attribute.
+The mean may not always be a clear or accurate representation of the data, although it does calculate the average figure of the overall data collection, it does not always provide a fair figure. This is where a histogram provides a more accurate depiction by showing a visual breakdown of where the data lies.
 <br>
 For example, the mean of the <em>Sepal length</em> is 5.843333 but as per the histogram you can see the majority of the data collected ranges from approx 1cm - 6.8cm.
 
@@ -294,7 +292,12 @@ A advantage that a Box & Whisker Plots has over Histograms is that:
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Box%20and%20Whisker%20plot%20code.png">
 </p>
+<br>
+A very interesting step-by-step explaination of what a Box Plot is and also how to create it is found on reference [10].
+The Box Plots which I have produced below show the distribution of data for each attribute. <br>
+There is a larger range for Petal Length and Petal Width in comparison to the size of the box plot for the Sepal data. The mean of these box's also shows that the mean is now found in the middle but in the higher side of the range.
 
+<br>
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Data%20Visualisation/Box%20Whisker%20Plots.png">
 </p>
@@ -302,17 +305,19 @@ A advantage that a Box & Whisker Plots has over Histograms is that:
 
 <h4>Pie Chart</h4>
 
-I have included the output of creating a Pie Chart in my project as I wanted to gain a better understanding of creating graphs via Python. 
+I have included a Pie Chart in my project as I wanted to gain a better understanding of creating graphs via Python. Due to the fact that we already know the data collection, it is expected to have equal measures in all the ranges.<br>
 
-Below is a script I wrote with the help of reference [10]
+Below is a script I wrote with the help of reference [11]
 <br>
 
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/pie.png">
 </p>
+<br>
 
-Based on the equal allocation of data for each section ith this data set, we can see an even distribution of data with each section of this pie chart.
+Based on the equal allocation of data for each section with this data set, we can see an even distribution of data with each section of this pie chart.
 
+<br>
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/pie%20output.png">
 </p>
@@ -324,19 +329,19 @@ Based on the equal allocation of data for each section ith this data set, we can
 
 <h4>Scattor Plot Matrix</h4>
 
-I have never created or used a scatter plot prior to this project so I chose to research information about it to understand its output and any significant advantages or disadavantages of using this over another visual data output.
-
-A description of how you view a scatterplot is explained as: <em>"You interpret a scatterplot by looking for trends in the data as you go from left to right"</em> [11] <br>
+A description of how you view a scatterplot is explained as: <em>"You interpret a scatterplot by looking for trends in the data as you go from left to right"</em> [12] <br>
 
 * If an uphill pattern is viewed as the graph moves left to right, it indicates that a postive relationship exists between the X and Y axis. And as the X-axis value increases the Y-axis value also tends to increase. <br>
 * On the other side of this, if the data resembles a downhill pattern then this indicates a negative relationship where as the X-axis increases the Y-axis value tends to decrease. <br>
 * If no pattern can be determined based on the data output then no relationship exists between X and Y. <br>
-<em>"Note that the scatterplot only suggests a linear relationship between the two sets of values. It does not suggest that an increase in the Y-axis causes the X-axis data to increase." [11]
+<em>"Note that the scatterplot only suggests a linear relationship between the two sets of values. It does not suggest that an increase in the Y-axis causes the X-axis data to increase." [12]
 <br>
-"A linear relationship between X and Y exists when the pattern of X– and Y-values resembles a line, either uphill (with a positive slope) or downhill (with a negative slope)." [11]
+"A linear relationship between X and Y exists when the pattern of X– and Y-values resembles a line, either uphill (with a positive slope) or downhill (with a negative slope)." [12]
 <br>
-"Scatterplots show possible associations or relationships between two variables. However, just because your graph or chart shows something is going on, it doesn’t mean that a cause-and-effect relationship exists."</em> [11]
+"Scatterplots show possible associations or relationships between two variables. However, just because your graph or chart shows something is going on, it doesn’t mean that a cause-and-effect relationship exists."</em> [12]
 <br>
+
+As this is my first scatter plot, I researched information to fully understand outputs and the reasons for such.
 <br>
 
 <p align="left">
@@ -344,38 +349,42 @@ A description of how you view a scatterplot is explained as: <em>"You interpret 
 </p>
 
 <br>
-Based on the above description in relation to uphill or downhill patterns, and what they mean, I have concluded the following based on each attribute:
-
-<h6>Sepal Width</h6>
-Having reviewed the output of this data, I have concluded that there is no relationship present between Petal Width and Petal Length.<br>
-I would say that there is no relationship with Sepal Length as the output is extremely sporadic. The data goes into an uphill trend but then it drops low and starts again.
-
-<h6>Sepal Length</h6>
-Having reviewed the plots for Sepal Length this I believe that a positive relationship is present with Petal Length as there is an uphill trend visible. <br>
-It could be potentially argued that there is a relatonship with Petal Width as although there is a poor start to the data, it does trend upwards as it progresses.<br>
-There is no relationship found with the Sepal Width as the data is scattered as opposed to following one specific trend. <br>
-
-<br>
-<h6>Petal Length</h6>
-With this output, there is a positive relationship with Petal Width and Sepal Length. <br>
-The data with Sepal Width has no pattern to report.<br>
-
-<br>
-<h6>Petal Width</h6>
-A strong positive relationship is visible with the Petal Length data. <br>
-There is a relationship present with Sepal Length and Sepal Width but the uphill trend only starts into the data.
-
-<br>
 
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Data%20Visualisation/Scatter%20Plot%20Matrix.png">
 </p>
+
+<br>
+
+Based on the above description in relation to uphill or downhill patterns and what they mean, I have concluded the following based on each attribute: <br>
+
+<h6>Sepal Width</h6>
+- There is no relationship of any description found between Petal Width and Petal Length.
+
+- A potential to argue a relationship with Sepal Length is present however based on the output, the trend is extremely sporadic. The data goes into an uphill trend but then it drops low and starts again.
+
+<h6>Sepal Length</h6>
+- I believe that a positive relationship is present with Petal Length as there is an uphill trend visible.
+
+- Petal Width as although there is a poor start to the data, it does trend upwards as it progresses.
+- There is no relationship found with the Sepal Width as the data is scattered as opposed to following one specific trend.
+
+<br>
+<h6>Petal Length</h6>
+- I found that there is a positive relationship with Petal Width and Sepal Length.
+- The data with Sepal Width has no pattern to report, therefore no relationship is present.
+
+<br>
+<h6>Petal Width</h6>
+- A strong positive relationship is visible with the Petal Length data.
+- There is a relationship present with Sepal Length and Sepal Width but the uphill trend only starts further into the data.
+
 <br>
 
 <h4>3D Scatter Plot</h4>
 
 Having created the above scatter plot, I wanted to give a 3D scatter plot a shot.
-Unfortunately I was unable to successfully create a 3D based on the data set info, but I did find an interesting 3D scatter plot script online which was created with random values so I have ran this script to include in this project as I hope to revisit and use the data values in the future. Reference [12]
+Unfortunately I was unable to successfully create a 3D based on the data set info, but I did find an interesting 3D scatter plot script online which was created with random values so I have ran this script to include in this project as I hope to revisit and use the data values in the future. Reference [13]
 
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/3D%20scatter%20code.png">
@@ -416,28 +425,41 @@ Also it is amazing how many open sites are avaiable and the extent to which the 
 <h3>3.2 Development</h3>
 I have learned a great deal since having undertaken this project. Prior to commencing this course in January, I had no previous programming experience and found the weekly tasks challenging. 
 With this project I was required to go out of my comfort zone where I found myself spending considerable time running, testing and tweaking code to produce results. But I am very proud of the content that I have produced, I found it both daunting and extensively rewarding. 
+
 <br>
 During my research, I did come across some indepth scripts and code which I believe would have added to my project but given the timeframe and my current skill level, I felt it would be slightly 'over my head' to explain it should I need to. 
+
 <br>
 Upon completing this project I have gained new knowledge and skills which will help me to grow as a developer and more confidence entering into semester 2 of this course later this year.
-Some of the newly attained skills include:
-- Discovering and using new libraries within VSC i.e. NumPy, Pandas, Matplotllib 
-- Learning how to produce and create visual outputs i.e. histograms, scatter plots while also understanding the outputs
-- Returning to previously written scripts to tweak or improve them based on newly found knowledge e.g. calculating the min and max values
-- Using iPython as an active terminal to test code and outputs before committing them to scripts 
-- Learning new terminology within GitHub itself i.e. learning what 'forking a project' means. This would lead me to believe that my work was seen as a good standard for someone to wish to reference it. 
-- Also learning new tips and tricks with using NumPy in Visual Studio Code - using the 'tab' key to view commands available with NumPy
-- I discovered another way to add spacing within Python scripts ('\n') which allowed me to make the script cleaner looking 
-<br>
-I have become more confidence with the software of Python and GitHub, and I look forward to adding to it further as my knowledge progresses.
 
+<br>
+Some of the newly attained skills include:
+
+- Discovering and using new libraries within VSC i.e. NumPy, Pandas, Matplotllib.
+
+- Learning how to produce and create visual outputs i.e. histograms, scatter plots, box plots, and also understanding the outputs of each and what they represent.
+
+- Returning to previously written scripts to tweak or improve them based on newly found knowledge e.g. calculating the min and max values.
+
+- Using iPython as an active terminal to test code and outputs before committing them to scripts. 
+
+- Learning new terminology within GitHub itself i.e. learning what 'forking a project' means. This would lead me to believe that my work was seen as a good standard for someone to wish to reference it. 
+
+- Also learning new tips and tricks with using NumPy in Visual Studio Code - using the 'tab' key to view commands available with NumPy.
+
+- I discovered another way to add spacing within Python scripts ('\n') which allowed me to make the script cleaner looking. 
+
+- I have become more confidence with the software of Python and GitHub, and I look forward to adding to it further as my knowledge progresses.
 <br><br>
 
 <h3>3.3 Errors Encountered</h3>
 There was plenty of errors encountered while creating this project but I shall aim to keep them to a summary for this part of my project.
 - Adding images to ReadMe is something that caused me great frustration. I had found the option online to add it via ![image](image.file.name) but this did not work, I attempted to add via a direct link and finally after a week of trying to resolve myself, I posted for help on the internal course Discussion Forum and thankfully my prayeres were answered.
+
 - When creating Box & Whisker plots, I wanted to play around with the layout and see could I get them to appear one per line instead of 2 and 2 so I tried to play with the layout(2,2) part of the code but unfortunately I did not get any further with it
+
 - Writing scripts is something that is still quite new to me so I constantly encounter errors within VSC when I try to get an output. This can be something as simple as forgetting the bracket or " but I am aware this is 100% based on user error and with time I know that I can overcome this obstacle which is adding alot to the length of time it takes me to produce scripts. Thankfully with the internet being as large as it is, I generally find assistance through some open source to resolve my issue.
+
 - Another issue I ran into that threw me was getting errors when I copied code from MS Word into Visual Studio Code. I was writing my scripts within MS Word as my open 'jotter' on my laptop. For some unknown reason when you copy and paste from Word into VSC, you will get inundated with error messages about invald syntax when there is no error. I deleted and manually typed in the same code to resolve this issue and I have included a screenshot showing the errors here:
 
 <p align="left">
@@ -464,9 +486,10 @@ There was plenty of errors encountered while creating this project but I shall a
 [7] https://stackoverflow.com/questions/36967126/why-do-i-get-good-accuracy-with-iris-dataset-with-a-single-hidden-node <br>
 [8] https://machinelearningmastery.com/machine-learning-in-python-step-by-step/ <br>
 [9] https://en.wikipedia.org/wiki/Box_plot <br>
-[10] https://pythonspot.com/matplotlib-pie-chart/ <br>
-[11] http://www.dummies.com/education/math/statistics/how-to-interpret-a-scatterplot/ <br>
-[12] https://stackoverflow.com/questions/1985856/how-to-make-a-3d-scatter-plot-in-python <br>
+[10] https://www.wikihow.com/Make-a-Box-and-Whisker-Plot
+[11] https://pythonspot.com/matplotlib-pie-chart/ <br>
+[12] http://www.dummies.com/education/math/statistics/how-to-interpret-a-scatterplot/ <br>
+[13] https://stackoverflow.com/questions/1985856/how-to-make-a-3d-scatter-plot-in-python <br>
 
 - Image on cover page: https://xantheunwinart.deviantart.com/art/iris-flower-289614269
 
