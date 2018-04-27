@@ -14,7 +14,7 @@
 
 <p align="center">
 <img height="350" width="500" src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/iris%20flower.png"
-<reference: https://xantheunwinart.deviantart.com/art/iris-flower-289614269>
+<reference: https://xantheunwinart.deviantart.com/art/iris-flower-289614269 [14]>
 </p>
 
 <br>
@@ -37,7 +37,8 @@
 3.3 Errors Encountered <br>
 4.	Appendix <br>
 5.	Bibliography <br>
-</br>
+
+<br>
 
 
 <h2><strong> 1.	Introduction </h2></strong> <br>
@@ -282,20 +283,24 @@ This backs the theory that visual data is always going to show you a clearer dis
 
 <h4>Box and Whisker Plots</h4>
 
-Box Plots are defined on Wikipedia as a good method of showing an accurate view of data:
-<br><em>"Outliers may be plotted as individual points. Box plots are non-parametric: they display variation in samples of a statistical population without making any assumptions of the underlying statistical distribution. The spacings between the different parts of the box indicate the degree of dispersion (spread) and skewness in the data, and show outliers."</em> [9]
+Box Plots are defined on Wikipedia as a good method of showing an accurate view of data: <br>
 
+em>"Outliers may be plotted as individual points. Box plots are non-parametric: they display variation in samples of a statistical population without making any assumptions of the underlying statistical distribution. The spacings between the different parts of the box indicate the degree of dispersion (spread) and skewness in the data, and show outliers."</em> [9]
+
+<br>
 A advantage that a Box & Whisker Plots has over Histograms is that:
 <em>"They take up less space and are therefore particularly useful for comparing distributions between several groups or sets of data."</em> [9]
-<br>
 
+<br>
 <p align="left">
 <img src="https://github.com/vwalsh86/Iris-Data-Set-Project/blob/master/Screenshots/Box%20and%20Whisker%20plot%20code.png">
 </p>
+
 <br>
-A very interesting step-by-step explaination of what a Box Plot is and also how to create it is found on reference [10].
-The Box Plots which I have produced below show the distribution of data for each attribute. <br>
-There is a larger range for Petal Length and Petal Width in comparison to the size of the box plot for the Sepal data. The mean of these box's also shows that the mean is now found in the middle but in the higher side of the range.
+A very interesting step-by-step explaination of what a Box Plot is and also how to create it is found on reference [10]. 
+<br>
+The Box Plots below show a larger range for Petal Length and Petal Width in comparison to the size of the box plot for Sepal data. The mean of these Box Plot's is also found in the higher side of the range.<br>
+Again, this is another example of visual data being a greater method of comparing data in a fair manner once the exact distribution is visible.
 
 <br>
 <p align="left">
@@ -359,28 +364,35 @@ As this is my first scatter plot, I researched information to fully understand o
 Based on the above description in relation to uphill or downhill patterns and what they mean, I have concluded the following based on each attribute: <br>
 
 <h6>Sepal Width</h6>
+
 - There is no relationship of any description found between Petal Width and Petal Length.
 
 - A potential to argue a relationship with Sepal Length is present however based on the output, the trend is extremely sporadic. The data goes into an uphill trend but then it drops low and starts again.
 
+<br>
 <h6>Sepal Length</h6>
+
 - I believe that a positive relationship is present with Petal Length as there is an uphill trend visible.
 
 - Petal Width as although there is a poor start to the data, it does trend upwards as it progresses.
+
 - There is no relationship found with the Sepal Width as the data is scattered as opposed to following one specific trend.
 
 <br>
 <h6>Petal Length</h6>
+
 - I found that there is a positive relationship with Petal Width and Sepal Length.
+
 - The data with Sepal Width has no pattern to report, therefore no relationship is present.
 
 <br>
 <h6>Petal Width</h6>
+
 - A strong positive relationship is visible with the Petal Length data.
+
 - There is a relationship present with Sepal Length and Sepal Width but the uphill trend only starts further into the data.
 
 <br>
-
 <h4>3D Scatter Plot</h4>
 
 Having created the above scatter plot, I wanted to give a 3D scatter plot a shot.
@@ -398,27 +410,41 @@ The above code has set value limits of 50 and the script requests random outputs
 </p>
 
 <br>
+
+<h3>Similar Investigations</h3>
+During my research, I found numerous projects completed on the same subject by many other individuals. There are similarities within each but also visible different styles of how each carried out and executed their data. <br>
+In these projects, you can see the programming level of difficulty increasing as the project progresses. <br>
+I found it interesting to view the scripts
+
 <br>
 
 <h2><strong>3. Summary</h2></strong> <br>
 
-I have come to understand that the area of programming is an extremely indepth and complex one, where there are various methods to calculate the same information.
+It was during this project that I came to fully appreciate just how complex and indepth the area of programming is. A prime example of this is that there is no 'one-way' to gather a result. There are many options you can choose when running a script: multiple lines of code, for loops, functions etc. <br>
+As it has been said many a time by our lecturer, programming "is like driving a car", and right now I think its fair to say I have just got my L plates. <br>
 My investigations have only touched the surface with this area and over time I believe that I will be able to revisit and improve my scripts.<br>
-Based on my investigations, I have also come to the understanding that graphs are the most reliable method of output when it comes to having a clear and detailed breakdown of the distribution of data. <br>
-I have also achieved what I set out to do at the beginning of this project, which was to understand the data set while also learning methods of how to manipulate the data through writing and executing scripts.<br>
-In my investigations, I did come across more complex scripts which I wanted to pursue however based on my knowledge and timescale, I chose to reference these in my investigations and I hope to revisit this in the future to execute myself. 
+Based on my investigations, I have also come to the understanding that visual graphs are the most reliable method of output when it comes to having a clear and detailed breakdown of the distribution of data. When you output data alone, you are merely being given the calculated average of the compiled data which may sometimes be enough but it is always good to have options. <br>
+I have achieved what I set out to do at the beginning of this project, which was to understand the data set and its importance to machine learning, while also learning methods of how to manipulate the data via writing and executing scripts.
 
+<br>
 <br>
 
 <h3>3.1 Findings</h3>
 
-To summarize my findings, I come to notice similar points being made about the Iris Data Set from those who have completed similar research:  
+There are certainly plenty of people out there who have previously completed a similar project to my own. <br>
+Some stuck to basic outputs, some went extremely indepth and produced complex outputs.
+
+<br>
+I would personally prefer visual data outputs going forward should I need to investigate a data set again. The reason for this is bassed on the fact that visual outputs give a fairer representation of data as opposed to going with calculations alone.
+<br>
+
+I notice similar points being made about the Iris Data Set from those who have completed similar research:  
 - This is a popular data set for use within Machine Learning
-- Due to its small size (4 algorithms and 150 rows) it easily fits into memory (and on an A4 page)
+- Due to its small size (4 algorithms and 150 rows) it easily fits into memory (and on an A4 page) [8]
 - High accuracy levels 
 
-
-Also it is amazing how many open sites are avaiable and the extent to which the Iris Data Set is used in modern machine learning. 
+<br>
+It amazed me that there arem so many 'open sites' avaiable and the extent to which the Iris Data Set is used in modern machine learning. 
 
 <br>
 
@@ -490,42 +516,20 @@ There was plenty of errors encountered while creating this project but I shall a
 [11] https://pythonspot.com/matplotlib-pie-chart/ <br>
 [12] http://www.dummies.com/education/math/statistics/how-to-interpret-a-scatterplot/ <br>
 [13] https://stackoverflow.com/questions/1985856/how-to-make-a-3d-scatter-plot-in-python <br>
+[14] Image on cover page: https://xantheunwinart.deviantart.com/art/iris-flower-289614269
+[15] https://rpubs.com/rpadebet/269829 
+[16] https://gist.github.com/curran/a08a1080b88344b0c8a7
+[17] https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342  
+[18] https://www.kaggle.com/abhishekkrg/python-iris-data-visualization-and-explanation
+[19] https://www.kaggle.com/benhamner/python-data-visualizations
+[20] http://www.learn4master.com/algorithms/visualize-iris-dataset-using-python
+[21] https://github.com/bensooraj/Making-predictions-on-the-Iris-Dataset/blob/master/Making%20predictions%20on%20the%20Iris%20Dataset.ipynb
+[22] https://www.kaggle.com/vikrishnan/iris-dataset/data
+[23] https://stackoverflow.com/questions/14494747/add-images-to-readme-md-on-github 
+[24] https://plot.ly/python/histograms/
+[25] https://stackoverflow.com/questions/33203645/how-to-plot-a-histogram-using-matplotlib-in-python-with-a-list-of-data  
+[26] https://www.tutorialspoint.com/python/python_lists.htm  
+[27] http://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html -Scatter plots 
+[28] https://stackoverflow.com/questions/21548750/plotting-histograms-against-classes-in-pandas-matplotlib -Histograms 
+[29] https://www.kaggle.com/vikrishnan/iris-dataset/data
 
-- Image on cover page: https://xantheunwinart.deviantart.com/art/iris-flower-289614269
-
-
-<br>
-
-<strong><em>Additional references reviewed but not utilised in my project</strong></em>
-
-- https://stackoverflow.com/questions/14494747/add-images-to-readme-md-on-github 
-
-- https://gist.github.com/curran/a08a1080b88344b0c8a7 
-
-- https://rpubs.com/rpadebet/269829 
-
-- https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342  
-
-- https://plot.ly/python/histograms/
-
-- https://stackoverflow.com/questions/33203645/how-to-plot-a-histogram-using-matplotlib-in-python-with-a-list-of-data  
-
-- https://stackoverflow.com/questions/45721083/unable-to-plot-4-histograms-of-iris-dataset-features-using-matplotlib
-
-- https://campus.datacamp.com/courses/statistical-thinking-in-python-part-1/graphical-exploratory-data-analysis?ex=5#skiponboarding
-
-- https://www.tutorialspoint.com/python/python_lists.htm  
-
-- https://www.kaggle.com/abhishekkrg/python-iris-data-visualization-and-explanation
-
-- http://www.learn4master.com/algorithms/visualize-iris-dataset-using-python
-
-- https://www.kaggle.com/benhamner/python-data-visualizations
-
-- http://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html
-
-- https://stackoverflow.com/questions/21548750/plotting-histograms-against-classes-in-pandas-matplotlib
-
-* https://github.com/bensooraj/Making-predictions-on-the-Iris-Dataset/blob/master/Making%20predictions%20on%20the%20Iris%20Dataset.ipynb
-* https://www.kaggle.com/vikrishnan/iris-dataset/data
-* https://www.kaggle.com/benhamner/python-data-visualizations
